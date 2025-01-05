@@ -1,0 +1,5284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      Handbook of Old Burial Hill Plymouth, Massachusetts. | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2,h3 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    margin-top: .51em;
+    text-align: justify;
+    text-indent: 1em;
+    margin-bottom: .49em;
+}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r20 {width: 20%; margin-top: 1em; margin-bottom: 1em; margin-left: 40%; margin-right: 40%;}
+hr.r33 {width: 33%; margin-top: 1em; margin-bottom: 1em; margin-left: 33%; margin-right: 34%;}
+hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+.fs60 {font-size: 60%}
+.fs80 {font-size: 80%}
+.fs90 {font-size: 90%}
+.fs120 {font-size: 120%}
+.fs130 {font-size: 130%}
+.fs150 {font-size: 150%}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.widetable    {width: 75%; border-collapse: collapse; margin-left: 0em;}
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+.tdlx     {text-align: left; padding-left: .75em;}
+.tdrx     {text-align: right; padding-right: .5em;}
+.tdrxx    {text-align: right; padding-right: .5em; padding-left: 1em;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+    color: #A9A9A9;
+} /* page numbers */
+
+.blockquot {
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.bb       {border-bottom: 2px solid;}
+
+.bl       {border-left: 2px solid;}
+
+.btd      {border-top: 4px double;}
+
+.br       {border-right: 2px solid;}
+.brd      {border-right: 4px double;}
+
+.center   {text-align: center;}
+
+.right    {text-align: right;}
+
+.wsp    {word-spacing: 0.3em;}
+
+.smcap    {font-variant: small-caps;}
+
+.gesperrt
+{
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+
+em.gesperrt
+{
+    font-style: normal;
+}
+
+.caption  {font-weight: normal;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
+
+
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
+.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
+/* .x-ebookmaker .figright {float: right;} */
+
+/* Footnotes */
+.footnotes        {border: 1px dashed; margin-top: 2em;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+.poetry-container {display: flex; justify-content: center;}
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+/* Poetry indents */
+.poetry .indent0 {text-indent: -3em;}
+.poetry .indent4 {text-indent: 1em;}
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif;
+}
+
+.no-indent {text-indent: 0em;}
+
+.pageborder {width: 350px; border: 1px solid; padding: 20px; margin: auto;}
+
+div.centered_image20 {
+  width: 20%;
+  margin: 1em 40%;
+}
+div.centered_image20 img {
+  width: 100%;
+}
+
+div.centered_image65 {
+  width: 65%;
+  margin: 1em 17.5%;
+}
+div.centered_image65 img {
+  width: 100%;
+}
+.poetry .indent2 {text-indent: -2em;}
+
+.lh {line-height: .75em;}
+
+/* Illustration classes */
+.illowp10 {width: 10%; margin: 0 4px 0 0}
+.illowp100 {width: 100%;}
+.illowp15 {width: 15%;}
+.illowp25 {width: 25%;}
+.illowp35 {width: 35%;}
+.illowp45 {width: 45%;}
+.illowp50 {width: 50%;}
+.illowp51 {width: 51%;}
+.illowp52 {width: 52%;}
+.illowp55 {width: 55%;}
+.illowp56 {width: 56%;}
+.illowp57 {width: 57%;}
+.illowp61 {width: 61%;}
+.illowp65 {width: 65%;}
+.illowp66 {width: 66%;}
+.illowp67 {width: 67%;}
+.illowp71 {width: 71%;}
+.illowp72 {width: 72%;}
+.illowp74 {width: 74%;}
+.illowp83 {width: 83%;}
+.illowp84 {width: 84%;}
+.illowp85 {width: 85%;}
+.illowp9 {width: 9%;}
+
+.poetry .indent4 {text-indent: -1em;}
+.poetry .indent28 {text-indent: 9em;}
+.poetry .indent29 {text-indent: 11.5em;}
+
+    </style>
+</head>
+<body>
+<p style='text-align:center; font-size:1.2em; font-weight:bold'>The Project Gutenberg eBook of Handbook of Old Burial Hill Plymouth, Massachusetts, by Frank H. Perkins</p>
+<div style='display:block; margin:1em 0'>
+This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this eBook or online
+at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+are not located in the United States, you will have to check the laws of the
+country where you are located before using this eBook.
+</div>
+
+<p style='display:block; margin-top:1em; margin-bottom:1em; margin-left:2em; text-indent:-2em'>Title: Handbook of Old Burial Hill Plymouth, Massachusetts</p>
+<p style='display:block; margin-top:1em; margin-bottom:0; margin-left:2em; text-indent:-2em'>Author: Frank H. Perkins</p>
+<p style='display:block; text-indent:0; margin:1em 0'>Release Date: February 21, 2023 [eBook #70098]</p>
+<p style='display:block; text-indent:0; margin:1em 0'>Language: English</p>
+  <p style='display:block; margin-top:1em; margin-bottom:0; margin-left:2em; text-indent:-2em; text-align:left'>Produced by: Bob Taylor, Steve Mattern and the Online Distributed Proofreading Team at https://www.pgdp.net</p>
+<div style='margin-top:2em; margin-bottom:4em'>*** START OF THE PROJECT GUTENBERG EBOOK HANDBOOK OF OLD BURIAL HILL PLYMOUTH, MASSACHUSETTS ***</div>
+
+<div class="figcenter" style="width: 65%">
+<img src="images/cover.jpg" alt="Cover">
+</div>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter"></div>
+<div class="pageborder">
+<h1><span class="fs90" style="font-weight: normal;">HANDBOOK</span><br>
+
+<span class="fs60" style="font-weight: normal;">OF</span><br>
+
+<span class="fs150">Old Burial Hill</span><br>
+
+<span class="fs60" style="font-weight: normal;">PLYMOUTH, MASSACHUSETTS.</span></h1>
+
+<hr class="r20">
+
+<div class="poetry-container fs120 wsp">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent4">Its History,</div>
+    <div class="verse indent4">Its Famous Dead, <span class="fs80">and</span></div>
+    <div class="verse indent4">Its Quaint Epitaphs.</div>
+  </div>
+</div>
+</div>
+<hr class="r20">
+
+<p class="center fs80 no-indent">BY</p>
+<p class="center no-indent">FRANK H. PERKINS.</p><br>
+
+<hr class="r33">
+
+<br>
+<p class="center fs80 wsp">PUBLISHED BY</p>
+<p class="center wsp">A. S. Burbank,</p>
+<p class="center fs80 wsp">Pilgrim Bookstore, Plymouth, Mass.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p class="center fs80">Copyright, 1902, by <span class="smcap">A. S. Burbank</span>, Plymouth, Mass.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="INDEX">INDEX</h2>
+</div>
+
+
+
+<table class="autotable fs80">
+<tr>
+<td class="tdl"></td>
+<td class="tdr fs80">PAGE</td>
+<td class="tdl"></td>
+<td class="tdr fs80">PAGE</td>
+</tr>
+<tr>
+<td class="tdl">Atwood, Mehitable,</td>
+<td class="tdrx"><a href="#Page_40">40</a></td>
+<td class="tdlx bl">Jordan, James,</td>
+<td class="tdr"><a href="#Page_38">38</a></td>
+</tr>
+<tr>
+<td class="tdl">Bartlett, Joseph,</td>
+<td class="tdrx"><a href="#Page_37">37</a></td>
+<td class="tdlx bl">Judson family,</td>
+<td class="tdr"><a href="#Page_32">32</a>, <a href="#Page_33">33</a>, <a href="#Page_35">35</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Thomas,</td>
+<td class="tdrx"><a href="#Page_40">40</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Rev. Adoniram,</td>
+<td class="tdr"><a href="#Page_33">33</a></td>
+</tr>
+<tr>
+<td class="tdl">Bradford, Gov. William,</td>
+<td class="tdrx"><a href="#Page_13">13</a>, <a href="#Page_15">15</a>, <a href="#Page_16">16</a></td>
+<td class="tdlx bl">Keen, William,</td>
+<td class="tdr"><a href="#Page_44">44</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Maj. William,</td>
+<td class="tdrx"><a href="#Page_35">35</a>, <a href="#Page_36">36</a></td>
+<td class="tdlx bl">Kempton, children of Zacheus,</td>
+<td class="tdr"><a href="#Page_39">39</a></td>
+</tr>
+<tr>
+<td class="tdl">Bramhall, Phebe J.,</td>
+<td class="tdrx"><a href="#Page_41">41</a></td>
+<td class="tdlx bl">Kendall, Rev. James,</td>
+<td class="tdr"><a href="#Page_27">27</a></td>
+</tr>
+<tr>
+<td class="tdl">Brewster, Capt. Ellis,</td>
+<td class="tdrx"><a href="#Page_47">47</a></td>
+<td class="tdlx bl">Le Baron, Dr. Francis,</td>
+<td class="tdr"><a href="#Page_22">22</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Nancy,</td>
+<td class="tdrx"><a href="#Page_47">47</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Dr. Lazarus,</td>
+<td class="tdr"><a href="#Page_23">23</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; William,</td>
+<td class="tdrx"><a href="#Page_47">47</a></td>
+<td class="tdlx bl">Little, Dr. Thomas,</td>
+<td class="tdr"><a href="#Page_40">40</a></td>
+</tr>
+<tr>
+<td class="tdl">Carver, Capt. Nathaniel,</td>
+<td class="tdrx"><a href="#Page_30">30</a></td>
+<td class="tdlx bl">Lothrop, Col. Isaac,</td>
+<td class="tdr"><a href="#Page_38">38</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Gov.,</td>
+<td class="tdrx"><a href="#Page_17">17</a></td>
+<td class="tdlx bl">Magee, Capt. James,</td>
+<td class="tdr"><a href="#Page_24">24</a></td>
+</tr>
+<tr>
+<td class="tdl">Clark, Hannah,</td>
+<td class="tdrx"><a href="#Page_13">13</a></td>
+<td class="tdlx bl">Morton, Nathaniel,</td>
+<td class="tdr"><a href="#Page_35">35</a>, <a href="#Page_48">48</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Thomas,</td>
+<td class="tdrx"><a href="#Page_13">13</a>, <a href="#Page_17">17</a>, <a href="#Page_18">18</a></td>
+<td class="tdlx bl">“Nameless Nobleman,”</td>
+<td class="tdr"><a href="#Page_22">22</a></td>
+</tr>
+<tr>
+<td class="tdl">Cobb, Isaac Eames,</td>
+<td class="tdrx"><a href="#Page_40">40</a></td>
+<td class="tdlx bl">Oldest grave,</td>
+<td class="tdr"><a href="#Page_13">13</a></td>
+</tr>
+<tr>
+<td class="tdl">Cook, Caleb,</td>
+<td class="tdrx"><a href="#Page_31">31</a>, <a href="#Page_33">33</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; stone,</td>
+<td class="tdr"><a href="#Page_13">13</a></td>
+</tr>
+<tr>
+<td class="tdl">Cotton, children of John and Josiah,</td>
+<td class="tdrx"><a href="#Page_13">13</a>, <a href="#Page_37">37</a></td>
+<td class="tdlx bl">Paty, Thomas,</td>
+<td class="tdr"><a href="#Page_39">39</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Rachel,</td>
+<td class="tdrx"><a href="#Page_44">44</a></td>
+<td class="tdlx bl">Pearson, Capt. William,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl">Crombie, Fanny,</td>
+<td class="tdrx"><a href="#Page_43">43</a></td>
+<td class="tdlx bl">Plasket, Joseph,</td>
+<td class="tdr"><a href="#Page_46">46</a></td>
+</tr>
+<tr>
+<td class="tdl">Crowe, William,</td>
+<td class="tdrx"><a href="#Page_13">13</a>, <a href="#Page_14">14</a>, <a href="#Page_15">15</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Tabitha,</td>
+<td class="tdr"><a href="#Page_46">46</a></td>
+</tr>
+<tr>
+<td class="tdl">Cushman, Robert,</td>
+<td class="tdrx"><a href="#Page_20">20</a></td>
+<td class="tdlx bl">Powder-house,</td>
+<td class="tdr"><a href="#Page_45">45</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Thomas,</td>
+<td class="tdrx"><a href="#Page_13">13</a>, <a href="#Page_19">19</a>, <a href="#Page_20">20</a>, <a href="#Page_21">21</a></td>
+<td class="tdlx bl">Rider, John,</td>
+<td class="tdr"><a href="#Page_36">36</a></td>
+</tr>
+<tr>
+<td class="tdl">Doggett, Jane,</td>
+<td class="tdrx"><a href="#Page_37">37</a></td>
+<td class="tdlx bl">Ring, Ansel,</td>
+<td class="tdr"><a href="#Page_24">24</a></td>
+</tr>
+<tr>
+<td class="tdl">Dyer, Mary,</td>
+<td class="tdrx"><a href="#Page_43">43</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; William,</td>
+<td class="tdr"><a href="#Page_37">37</a></td>
+</tr>
+<tr>
+<td class="tdl">Farrell, Andrew,</td>
+<td class="tdrx"><a href="#Page_41">41</a></td>
+<td class="tdlx bl">Revolutionary Patriots,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl">Faunce, Elder Thomas,</td>
+<td class="tdrx"><a href="#Page_26">26</a>, <a href="#Page_49">49</a></td>
+<td class="tdlx bl">Robbins, Lemuel Cobb,</td>
+<td class="tdr"><a href="#Page_47">47</a></td>
+</tr>
+<tr>
+<td class="tdl">Finney, children of Ephraim,</td>
+<td class="tdrx"><a href="#Page_37">37</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Rev. Chandler,</td>
+<td class="tdr"><a href="#Page_27">27</a></td>
+</tr>
+<tr>
+<td class="tdl">Fort, site of,</td>
+<td class="tdrx"><a href="#Page_9">9</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Sally C.,</td>
+<td class="tdr"><a href="#Page_37">37</a></td>
+</tr>
+<tr>
+<td class="tdl">“Gen. Arnold,” seamen of,</td>
+<td class="tdrx"><a href="#Page_24">24</a></td>
+<td class="tdlx bl">Russell, Thomas,</td>
+<td class="tdr"><a href="#Page_34">34</a>, <a href="#Page_35">35</a></td>
+</tr>
+<tr>
+<td class="tdl">Goodwin, Gen. Nathaniel,</td>
+<td class="tdrx"><a href="#Page_30">30</a></td>
+<td class="tdlx bl">Sampson, Capt. Simeon,</td>
+<td class="tdr"><a href="#Page_26">26</a>, <a href="#Page_28">28</a>, <a href="#Page_29">29</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Hannah,</td>
+<td class="tdrx"><a href="#Page_45">45</a></td>
+<td class="tdlx bl">Savery, Elizabeth,</td>
+<td class="tdr"><a href="#Page_47">47</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Nathaniel,</td>
+<td class="tdrx"><a href="#Page_23">23</a></td>
+<td class="tdlx bl">Spooner, Sarah,</td>
+<td class="tdr"><a href="#Page_41">41</a>, <a href="#Page_42">42</a></td>
+</tr>
+<tr>
+<td class="tdl">Gray, Edward,</td>
+<td class="tdrx"><a href="#Page_13">13</a>, <a href="#Page_15">15</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Thomas,</td>
+<td class="tdr"><a href="#Page_42">42</a></td>
+</tr>
+<tr>
+<td class="tdl">Hammatt, Abraham,</td>
+<td class="tdrx"><a href="#Page_26">26</a></td>
+<td class="tdlx bl">Symmes, Hannah,</td>
+<td class="tdr"><a href="#Page_44">44</a></td>
+</tr>
+<tr>
+<td class="tdl">Harlow, Benjamin,</td>
+<td class="tdrx"><a href="#Page_41">41</a></td>
+<td class="tdlx bl">Taylor, Capt. Jacob,</td>
+<td class="tdr"><a href="#Page_30">30</a></td>
+</tr>
+<tr>
+<td class="tdl">Hobart, Priscilla,</td>
+<td class="tdrx"><a href="#Page_38">38</a></td>
+<td class="tdlx bl">Thatcher, Dr. James,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl">Holbrook, Peggy,</td>
+<td class="tdrx"><a href="#Page_44">44</a></td>
+<td class="tdlx bl">Thomas, Dr. William,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl">Holmes, Bathsheba James,</td>
+<td class="tdrx"><a href="#Page_46">46</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; John,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl">Howard, John W.,</td>
+<td class="tdrx"><a href="#Page_39">39</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Joseph,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl">Howland, Consider,</td>
+<td class="tdrx"><a href="#Page_26">26</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Joshua,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Hannah,</td>
+<td class="tdrx"><a href="#Page_25">25</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Nathaniel,</td>
+<td class="tdr"><a href="#Page_13">13</a>, <a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; John,</td>
+<td class="tdrx"><a href="#Page_13">13</a>, <a href="#Page_17">17</a></td>
+<td class="tdlx bl">Tilley, Elizabeth,</td>
+<td class="tdr"><a href="#Page_17">17</a></td>
+</tr>
+<tr>
+<td class="tdl">Jackson, Anna,</td>
+<td class="tdrx"><a href="#Page_45">45</a></td>
+<td class="tdlx bl">Tufts, William Drew,</td>
+<td class="tdr"><a href="#Page_36">36</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Ezra Thayer,</td>
+<td class="tdrx"><a href="#Page_45">45</a></td>
+<td class="tdlx bl">Warren, Col. Ben,</td>
+<td class="tdr"><a href="#Page_31">31</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Frederick,</td>
+<td class="tdrx"><a href="#Page_45">45</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Gen. James,</td>
+<td class="tdr"><a href="#Page_28">28</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; F. W.,</td>
+<td class="tdrx"><a href="#Page_44">44</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; James,</td>
+<td class="tdr"><a href="#Page_28">28</a></td>
+</tr>
+<tr>
+<td class="tdl">Harriet,</td>
+<td class="tdrx"><a href="#Page_46">46</a></td>
+<td class="tdlx bl"> &nbsp;&nbsp;”&nbsp;&nbsp; Mercy,</td>
+<td class="tdr"><a href="#Page_28">28</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Nathaniel,</td>
+<td class="tdrx"><a href="#Page_38">38</a>, <a href="#Page_39">39</a></td>
+<td class="tdlx bl">Watch-tower site of,</td>
+<td class="tdr"><a href="#Page_9">9</a></td>
+</tr>
+<tr>
+<td class="tdl"> &nbsp;&nbsp;”&nbsp;&nbsp; Thomas,</td>
+<td class="tdrx"><a href="#Page_44">44</a></td>
+<td class="tdlx bl"></td>
+<td class="tdr"></td>
+</tr>
+</table>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter"></div>
+<div class="centered_image65">
+  <img src="images/i004.jpg" alt="Priscilla">
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
+
+<h2 class="nobreak" id="The_Old_Burying-Ground">The Old Burying-Ground.</h2>
+</div>
+
+<div class="centered_image20">
+  <img src="images/bar.jpg" alt="decoration">
+</div>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">“The Pilgrim Fathers are at rest:</div>
+    <div class="verse indent2">When Summer’s throned on high,</div>
+    <div class="verse indent0">And the world’s warm breast is in verdure dressed,</div>
+    <div class="verse indent2">Go, stand on the hill where they lie.</div>
+    <div class="verse indent0">The earliest ray of the golden day</div>
+    <div class="verse indent2">On that hallowed spot is cast,</div>
+    <div class="verse indent0">And the evening sun, as he leaves the world,</div>
+    <div class="verse indent2">Looks kindly on that spot last.”</div>
+  </div>
+</div>
+</div>
+
+<p class="right fs80">
+—<span class="smcap">Pierpont.</span><br>
+</p>
+
+<div class="figleft illowp10" id="fancyn">
+  <img src="images/fancyn.jpg" alt="fancyN">
+</div>
+
+<p>
+<span style="margin-left: -2em;">No spot in Plymouth is so interesting to</span>
+the antiquary as Burial Hill. Here are
+the sites of the Pilgrims’ fort and watch-tower.
+Here sleep the early settlers of
+the colony, the heroes of the Revolution
+and of our later wars, and the men who went
+“down to the sea in ships” and braved dangers,
+in the days of Plymouth’s maritime glory. Here
+are to be seen the rude symbols of the sculptor’s art
+and the crude effusions of the elegiac poet.</p>
+
+<p>Burial Hill is 165 feet above the sea level, and
+rises abruptly just back of the town’s busiest thoroughfare.
+It is irregular in form and contains about
+eight acres. From this elevation the visitor has a
+splendid panorama of ocean and country. Nestling
+at his feet, between the hill and the sea, are the
+thickly clustering roofs of the old town. Turning
+his eyes northward, he sees in the far distance the
+villages of Kingston and Duxbury and the monument
+on Captain’s Hill, erected in memory of Myles Standish,<span class="pagenum" id="Page_6">[Pg 6]</span>
+the doughty Pilgrim commander. To the west
+stretches a rolling swell of hills, ending in an almost
+unbroken forest, through whose shades Massasoit led
+his warriors to meet the Plymouth colonists. On
+the south, shrouded in purple mist, are the “Pine
+Hills” of Manomet. Looking eastward, across the
+bay he spies the green dot known as Clark’s Island,
+where the Pilgrims spent their first Sabbath; and far
+beyond the shining strand of Plymouth Beach, if the
+day be clear and his vision keen, he can just discern
+Provincetown, at the point of Cape Cod,—the “tip
+end of Yankee-land.”</p>
+
+<figure class="figcenter illowp85" id="i006" style="max-width: 62.5em;">
+  <img class="w100" src="images/i006.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">CLARK’S ISLAND.</p></figcaption>
+</figure>
+
+<p>Visited as it is daily by tourists from all parts of
+the world, it is fitting that this consecrated ground
+should be well cared for and that its surroundings
+should be somewhat in keeping with its historic
+character. By the will of J. Henry Stickney of
+Baltimore, late vice-president of the Pilgrim Society,
+$10,000 was bequeathed for improvements on this
+ground. It had been suggested that the legacy be<span class="pagenum" id="Page_7">[Pg 7]</span>
+used in removing some, at least, of the unsightly
+buildings which skirt the foot of the hill on the
+easterly side, and in the erection of an ornamental
+gateway at the Town Square entrance.</p>
+
+<figure class="figcenter illowp100" id="i007" style="max-width: 62.5em;">
+  <img class="w100" src="images/i007.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">CHURCH OF THE FIRST PARISH.</p></figcaption>
+</figure>
+
+<p>There are several ways of approaching Burial Hill,
+but the main entrance is at Town Square. As we
+pass through the gateway the new First Church, now
+in process of building (1896), looms up on our left.
+It is of gray stone, in the Norman type of architecture,
+and its severity of style is suggestive of the rugged
+lives of the Fathers. In the vestibule of the square
+central tower will be placed tablets of a historical
+character. This church is the oldest religious organization
+in the country. In an unbroken succession
+the ministry of this church has continued from the
+days of Robinson and Brewster to the present. Its
+records are piously preserved.</p>
+
+<p><span class="pagenum" id="Page_8">[Pg 8]</span></p>
+
+<figure class="figcenter illowp100" id="i008" style="max-width: 62.5em;">
+  <img class="w100" src="images/i008.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">THE OLD FORT AND FIRST MEETING-HOUSE.</p></figcaption>
+</figure>
+
+<p><span class="pagenum" id="Page_9">[Pg 9]</span></p>
+
+<p>Aside from its interest to those who find pleasure
+in meditation among the tombs of past generations,
+Burial Hill has a history which forms a part of the
+early history of the town. Long before the spot was
+used for burial purposes, it served as a ground for
+possible defence against the savage foe, and here the
+first church of the colony was established. Shortly
+after the landing of the Pilgrims, on Dec. 21, 1620,
+they set about to provide against attack from the
+redskins, and we learn from their records that “in
+one field is a great hill, on which we poynt to make
+a platform and plant our ordnance, which will command
+all round about.”</p>
+
+<p>In 1622 a larger fort was erected, and in 1627
+De Raisieres describes it as a large square house,
+with flat roof made of thick sawn planks, stayed with
+oak beams, upon the top of which six cannon were
+mounted. The lower part was used for a church.
+The Pilgrims assembled at beat of drum, each with
+his musket or firelock, and marched to the place of
+worship.</p>
+
+<p>The exact situation of this fort is unknown. No
+traces of it remain. It is reasonable to suppose,
+however, that it stood well toward the top of the
+hill on the southeasterly side, on a spot which would
+command the approach from Leyden Street (the first
+thoroughfare) on the east and the approach from the
+path leading to the fording-place on the south. This
+path, now Spring Street, leads directly from the hill
+to Town Brook.</p>
+
+<p>On Sept. 23, 1643, it was agreed that a watchhouse
+“shall be forthwith built of brick.” This<span class="pagenum" id="Page_10">[Pg 10]</span>
+structure stood at the top of the hill, on the southeasterly
+side, and commanded a wide view of all
+the country about. Its bounds are marked by four
+square granite blocks, and a small oval stone on a
+standard, suitably inscribed, more definitely designates
+the location. Within recent years pieces of
+the brick of which this watchhouse, or watch-tower,
+as it is more commonly called, have been unearthed.</p>
+
+<p>Strolling down the southeasterly slope, the visitor
+comes to another similar oval stone, which tells us
+that here stood the old fort, erected in 1621. This
+may be the site of the first fortification, but history
+makes no record of it. We have evidence, however,
+that in 1676, when invasion from King Philip, the
+Indian chieftain, was feared, a fort was built on this
+spot, and the conformation of the ground indicates
+the existence at some time of such a work. On
+Feb. 19, 1676, the colonists decided to erect a fortification,
+“to be a hundred foot square, the pallasadoes
+to be ten foot and a halfe longe; to be sett two foot
+and a halfe in the Ground; and to be sett against a
+post and a Rail ... and that there shal be a watch
+house erected within the said ffence or fortification,
+and that the three peece of ordnance shal be planted
+within the said ffence or fortification ... said
+watch house which is to be sixteen foot in length
+and twelve foot in breadth and eight foot stud, to
+be walled with board.”</p>
+
+<p>This construction is significant of the peril of the
+times and of the stern and unbending determination
+of the Forefathers. With the close of King Philip’s
+War the fort was abandoned, and in 1677 the material<span class="pagenum" id="Page_11">[Pg 11]</span>
+of which it was built was granted to one William
+Harlow. Some of the massive timbers were used in
+the construction of the old Harlow house on Sandwich
+Street, and are still to be seen.</p>
+
+<figure class="figcenter illowp100" id="i011" style="max-width: 62.5em;">
+  <img class="w100" src="images/i011.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">WILLIAM HARLOW HOUSE, 1677.</p>
+
+<p class="center fs80">Built of timber from old Burial Hill Fort.</p></figcaption>
+</figure>
+
+
+<p>The hill was not used as a place of burial until
+after it was abandoned for defensive purposes. Those
+of the “Mayflower” company who died the first winter
+were buried on Cole’s Hill, and, while no traces of
+their graves remain, a tablet appropriately inscribed
+marks their resting-place. Others of the Pilgrim
+band found burial on their own estates, and no man
+knoweth their sepulchre. The first mention of Burial
+Hill as a cemetery was in 1698, when Chief Justice
+Sewall recorded the following in his diary: “I walk
+out in the morn to see the mill, then turn up to the
+graves, come down to the meeting-house, and seeing
+<span class="pagenum" id="Page_13">[Pg 13]</span>the door partly open went in and found a very convenient
+place to pray.”</p>
+
+<figure class="figcenter illowp100" id="i012" style="max-width: 62.5em;">
+  <img class="w100" src="images/i012.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">GENERAL VIEW.</p></figcaption>
+</figure>
+
+<p>The oldest stone in this ground is that of Edward
+Gray, and bears the date of 1681. It is probable,
+however, that earlier burials took place here.
+Tradition says that the oldest grave is that of John
+Howland, who died in 1672, although the stone
+which marks it was erected within comparatively
+recent years. Tradition also places here the earthly
+remains of Gov. William Bradford, and a monument
+bearing his name rises among the graves of
+the Bradford family, the exact place of the Governor’s
+interment, however, not being designated.</p>
+
+<p>There are six ancient gravestones bearing date
+before 1700, as follows:—</p>
+
+<p class="lh">Edward Gray, 1681.</p>
+<p class="lh">William Crowe, 1683-84.</p>
+<p class="lh">Hannah Clark, 1687.</p>
+<p class="lh">Thomas Cushman, 1691.</p>
+<p class="lh">Thomas Clark, 1697.</p>
+<p class="lh">Ten children of John and Josiah Cotton, 1699.</p>
+
+<p>Possibly there is a seventh,—the defaced tombstone
+of Nathaniel Thomas, who is said to have
+died in 1697. The figures on the stone are illegible.</p>
+
+<p>All these stones are on the summit of the hill,
+within a narrow radius, and near the intersection of
+the two main paths. With the exception of Gray’s,
+all are of English make, and in fact most of those
+bearing dates to 1745 were brought from across the
+water.</p>
+
+<p>The Gray stone, the oldest on the hill, as has been
+said, is of dark, compact slate. It probably has the
+<span class="pagenum" id="Page_14">[Pg 14]</span>usual “cherub,” or symbol; if so, it is concealed by
+the iron hood which protects the edges from water
+and frost. By its side is a wooden slab bearing the
+legend, “The Grave of Edward Gray, June, 1681.”
+The inscription on the stone is as follows:—</p>
+
+<p><span class="pagenum" id="Page_15">[Pg 15]</span></p>
+<p class="center fs80 no-indent">
+Here Lyeth ye Body<br>
+of <em class="gesperrt">EDWARD GRAY</em><br>
+Gent Aged About<br>
+52 years &amp; Departd<br>
+this life ye Last of<br>
+June 1681<br>
+</p>
+
+<p>Edward Gray appeared in Plymouth about the year
+1643. Tradition has it that he and his brother were
+sent from England in order that scheming relations
+might obtain possession of their property. He became
+a merchant, and the wealthiest man in the
+colony.</p>
+
+<figure class="figcenter illowp100" id="i014" style="max-width: 62.5em;">
+  <img class="w100" src="images/i014.jpg" alt="William Crowe tombstone">
+</figure>
+
+<p>The stone of William Crowe, the next in order of
+date, is of purple slate and is thus inscribed:—</p>
+
+<p class="center fs80 no-indent">
+Here lies buried<br>
+ye body of Mr<br>
+<em class="gesperrt">WILLIAM CROWE</em><br>
+Aged About 55 years<br>
+who decd January<br>
+1683-4<br>
+</p>
+
+<p>The Bradford obelisk is one of the first objects to<span class="pagenum" id="Page_16">[Pg 16]</span>
+claim the visitor’s attention. It is of white marble
+on a granite base, and rises to a height of eight feet
+or more. On the south side are these words:—</p>
+
+<div class="blockquot fs80">
+
+<p>H I William Bradford of Austerfield Yorkshire England.
+Was the son of William and Alice Bradford He was Governor
+of Plymouth Colony from 1621 to 1633 1635 1637 1639
+to 1643 1645 to 1657</p>
+</div>
+
+<p>On the north side is a Hebrew sentence, said to
+signify “Jehovah is our help,” but by other Hebrew
+<span class="pagenum" id="Page_17">[Pg 17]</span>scholars translated “In Jehovah’s name I die.” Then
+follows:—</p>
+
+<figure class="figcenter illowp100" id="i016" style="max-width: 62.5em;">
+  <img class="w100" src="images/i016.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">GOV. BRADFORD’S MONUMENT.</p></figcaption>
+</figure>
+
+<div class="blockquot">
+
+<p class="fs80">Under this stone rest the ashes of William Bradford a
+zealous Puritan &amp; sincere Christian Gov. of Ply. Col. from
+1621 to 1657, (the year he died) aged 69, except 5 yrs. which
+he declined.</p>
+</div>
+
+<p>The grave of that sturdy old Pilgrim, John Howland,
+has a great attraction for thousands who tread
+this sacred soil, many of whom come from the good
+old Pilgrim stock. The stone is of reddish hue, tall
+and wide, and bears the following beautiful inscription:—</p>
+
+<p class="center fs80 no-indent">
+Here ended the Pilgrimage of<br>
+<em class="gesperrt">JOHN HOWLAND</em><br>
+who died February 23, 167⅔<br>
+aged above 80 years.<br>
+He married Elizabeth daughter of<br>
+<em class="gesperrt">JOHN TILLEY</em><br>
+who came with him in the<br>
+Mayflower Dec. 1620.<br>
+From them are descended a<br>
+numerous posterity.<br>
+</p>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p class="center">“Hee was a godly man and an ancient<br>
+professor in the wayes of Christ. Hee was<br>
+one of the first comers into this land and<br>
+was the last man that was left of those<br>
+that came over in the Shipp called the<br>
+Mayflower that lived in Plymouth.”</p>
+
+<p class="right fs80">
+<i>Plymouth Records.</i><br>
+</p>
+</div>
+
+<p>One of the six stones bearing date in the seventeenth
+century marks the grave of Thomas Clark, or
+Clarke, who is often spoken of as the “mate of the
+‘Mayflower.’” History, however, tells a different story,
+and it is known that the name of the first officer of the
+ship was John Clark. The stone is of purple Welsh
+slate, and is thus lettered:—</p>
+
+<p><span class="pagenum" id="Page_18">[Pg 18]</span></p>
+
+<div class="blockquot fs80">
+
+<p>Here lyes ye body of Mr. Thomas Clark aged 98 years
+departed this life March ye 24th 1697.</p>
+</div>
+
+<p>A huge boulder has been recently placed on this
+grave, and a metallic plate secured to it reads:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">Here lies buried ye body of Mr. Thomas Clarke, aged 98.
+Departed this life March 24, 1697. Thomas Clarke came to
+Plymouth from England in the ship Anne 1623. He married
+Susan Ring of Plymouth, 1634. Their children were Andrew,
+James, William, Susanna, Nathaniel, and John. From whom
+descended a numerous posterity. He married his second wife,
+Mrs. Alice Hallett Nichols of Boston, in 1664. He lived for
+some years in Boston, and also in Harwich, of which town he was
+one of the original proprietors. He died in Plymouth, having
+lived in the reigns of six British sovereigns and the Com’th.
+This stone is erected to his memory by his descendants A.D. 1891.</p>
+</div>
+
+<figure class="figcenter illowp84" id="i018" style="max-width: 62.5em;">
+  <img class="w100" src="images/i018.jpg" alt="Thomas Clark tombstone">
+</figure>
+
+<p>It is with reverent step that the latter-day Pilgrim
+approaches the Cushman monument, an enduring
+memorial to a “precious servant of God.” This is<span class="pagenum" id="Page_19">[Pg 19]</span>
+a granite column, twenty-five feet high, and it is by
+far the most conspicuous monument on the hill.
+There is a bronze tablet on each of its four sides, that
+on the northerly side reading as follows:—</p>
+
+<figure class="figcenter illowp51" id="i019" style="max-width: 42.625em;">
+  <img class="w100" src="images/i019.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">CUSHMAN MONUMENT.</p></figcaption>
+</figure>
+
+<p><span class="pagenum" id="Page_20">[Pg 20]</span></p>
+
+<p class="center fs80 no-indent">
+<em class="gesperrt">ROBERT CUSHMAN</em>,<br>
+<br>
+Fellow-exile with the Pilgrims in Holland,<br>
+Afterwards their chief agent in England,<br>
+Arrived here -IX- November, -MDCXXI,<br>
+With Thomas Cushman his son:<br>
+Preached -IX- December,<br>
+His memorable sermon on “The Danger of self-love<br>
+And the sweetness of true friendship:”<br>
+Returned to England -XIII- December,<br>
+To vindicate the enterprise of Christian emigration;<br>
+And there remained in the service of the Colony Till -MDCXXV,<br>
+When, having prepared to make Plymouth His permanent home.<br>
+</p>
+
+<p>West side:—</p>
+
+<p class="center fs80 no-indent">
+He died, lamented by the forefathers<br>
+as “their ancient friend,—who was<br>
+as their right hand with their friends<br>
+the adventurers, and for divers years<br>
+had done and agitated all their business<br>
+with them to their great advantage.”<br>
+<br>
+“And you, my loving friends, the adventurers<br>
+to this plantation, as your care has been first<br>
+to settle religion here before either profit<br>
+or popularity, so, I pray you, go on.——<br>
+I rejoice——that you thus honor God<br>
+with your riches, and I trust you shall be repaid<br>
+again double and treble in this world, yea,<br>
+and the memory of this action shall never die.”</p>
+
+<p class="right fs80"><span class="smcap">Dedication of the Sermon.</span></p>
+
+<p>South side:—</p>
+
+<p class="center fs80 no-indent">
+<em class="gesperrt">THOMAS CUSHMAN.</em><br>
+<br>
+Son of Robert, died -X- December, MDCXCI,<br>
+Aged nearly -LXXXIV- years.<br>
+For more than -XLII- years he was<br>
+Ruling Elder of the First Church in Plymouth,<br>
+By whom a tablet was placed to mark his grave on this spot,<br>
+Now consecrated anew by a more enduring memorial.<br>
+<br>
+<em class="gesperrt">MARY</em>,<br>
+<br>
+widow of Elder Cushman, and daughter of Isaac Allerton,<br>
+Died -XXVIII- November, MDCXCIX, aged about -XC- years,<br>
+The last survivor of the first comers in the Mayflower.<br>
+</p>
+
+<p><span class="pagenum" id="Page_21">[Pg 21]</span></p>
+
+<p>East side:—</p>
+
+<p class="center fs80 no-indent">
+Erected by<br>
+The descendants of<br>
+Robert Cushman<br>
+In memory of their Pilgrim Ancestors,<br>
+XVI- September, MDCCCLVIII.<br>
+</p>
+
+<figure class="figcenter illowp67" id="i021" style="max-width: 56.25em;">
+  <img class="w100" src="images/i021.jpg" alt="Thomas Cushman tombstone">
+</figure>
+
+<p>The stone originally erected over the grave of
+Elder Thomas Cushman was removed in 1858 to
+make room for this memorial, and now stands a little
+distance from its first position. It is of purple Welsh
+slate, and is in a remarkable state of preservation.
+The inscription is as follows:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">Here lyeth buried ye body of that precious servant of God,
+Mr. <em class="gesperrt">THOMAS CUSHMAN</em>, who after he had served his generation
+according to the will of God, and particularly the church<span class="pagenum" id="Page_22">[Pg 22]</span>
+of Plymouth for many years in the office of a ruleing elder fell
+asleep in Jesus Decmr. ye 10, 1691 &amp; ye 84. year of his age.</p>
+</div>
+
+<figure class="figcenter illowp74" id="i022" style="max-width: 62.375em;">
+  <img class="w100" src="images/i022.jpg" alt="Francis Le Barran tombstone">
+</figure>
+
+<p>There is always eager inquiry from the visitors to
+Burial Hill for the grave of the “Nameless Nobleman,”
+the hero of Mrs. Jane G. Austin’s famous historical
+novel of that title. We find it near the Cushman
+monument. The stone has the small figure of an
+hourglass at its top, under which appears the winged
+cherub, the sculpture being better defined than is usual
+in such old work. The inscription reads:—</p>
+
+<div class="blockquot">
+
+<p class="center fs80 no-indent">
+Here lyes ye body<br>
+of Mr. FRANCIS LE BARRAN<br>
+phytician who<br>
+departed this life<br>
+Augst ye 18th 1704,<br>
+in ye 36 year<br>
+of his age.</p>
+</div>
+
+<p><span class="pagenum" id="Page_23">[Pg 23]</span></p>
+
+<p>Dr. Le Baron was the surgeon of a French ship
+which was wrecked in Buzzard’s Bay in 1694. With
+the officers and crew he was taken prisoner and sent
+to Boston. On their way a stop was made at Plymouth,
+where the doctor had occasion to perform a
+surgical operation. This led to a request, made by
+the citizens to the lieutenant-governor, and granted,
+that he be allowed to remain in the town. From him
+the numerous Le Barons in America are descended.</p>
+
+<figure class="figcenter illowp57" id="i023" style="max-width: 47.5em;">
+  <img class="w100" src="images/i023.jpg" alt="Nathaniel Goodwin tombstone">
+</figure>
+
+<p>By the side of Dr. Le Baron is buried his wife
+Mary, who after his death married a Wait. Near by
+is the grave of their son, Dr. Lazarus Le Baron, who<span class="pagenum" id="Page_24">[Pg 24]</span>
+also figures in Mrs. Austin’s writings; and in the
+rear of these graves is seen the tombstone of Nathaniel
+Goodwin, the great-grandfather of Mrs. Jane
+(Goodwin) Austin, who married Lydia, daughter of
+Lazarus Le Baron.</p>
+
+<p>Various other people mentioned in Mrs. Austin’s
+novels are buried in this ground. Among them is
+Ansel Ring, who, as we are told in “Dr. Le Baron
+and His Daughters,” was cursed by the old witch,
+Mother Crewe. He lies with the sixty seamen who
+perished on board the “General Arnold.” A marble
+shaft on the extreme southwesterly edge of the hill
+marks the place of their interment. The inscription
+on the northeasterly side is:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">In memory of Seventy two Seamen who perished in Plymouth
+harbour on the 26, and 27, days of December 1778, on
+board the private armed Brig, Gen. Arnold, of twenty guns,
+James Magee of Boston, Commander, sixty of whom were
+buried on this spot.</p>
+</div>
+
+<p>On the northwesterly side:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">Capt. James Magee died in Roxbury, February 4, 1801;
+aged 51 years.</p>
+</div>
+
+<p>On the southwesterly side:—</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Oh! falsely flattering were yon billows smooth</div>
+    <div class="verse indent0">When forth, elated, sailed in evil hour,</div>
+    <div class="verse indent0">That vessel whose disastrous fate, when told,</div>
+    <div class="verse indent0">Fill’d every breast with sorrow and each eye</div>
+    <div class="verse indent0">With piteous tears.</div>
+  </div>
+  </div>
+</div>
+
+<p>On the southeasterly side:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">This monument marks the resting place of sixty of the
+seventy two mariners, “who perished in their strife with the
+storm,” and is erected by Stephen Gale of Portland, Maine, a
+stranger to them, as a just memorial of their sufferings and
+death.</p>
+</div>
+
+<p><span class="pagenum" id="Page_25">[Pg 25]</span></p>
+
+<figure class="figcenter illowp83" id="i025" style="max-width: 62.5em;">
+  <img class="w100" src="images/i025.jpg" alt="Hannah Howland tombstone">
+</figure>
+
+<p>Another of Mrs. Austin’s characters is Hannah
+Howland, who is said to have died of a broken heart
+on account of Ring’s sad end. Her stone is to be
+found on the crown of the hill, not far from the Le
+Baron graves. Its inscription reads:—</p>
+
+<p class="center fs80 no-indent">
+<i>Sic Transit Gloria Mundi</i></p>
+<p class="fs80">To the memory of Miss Hannah Howland, who died of a<br>
+Languishment, January ye 25th 1780 Ætatis 26.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">For us they languish, &amp; for us they die</div>
+    <div class="verse indent0">And shall they languish shall they die in vain.</div>
+  </div>
+  </div>
+</div>
+
+<p>Readers of “Dr. Le Baron and His Daughters”
+will recall the following reference to the graves of the
+Howland family:—</p>
+
+<p><span class="pagenum" id="Page_26">[Pg 26]</span></p>
+
+<div class="blockquot">
+
+<p class="fs80">Consider Howland slept with his fathers on Burying Hill, and
+Ruth Bryant, his loving wife, had meekly followed him thither.
+You may see their stones today, in the shadow of that majestic
+though mistaken monument to the memory of John Howland,
+the Pilgrim, who married Elizabeth Tilley, and not Ellzabeth,
+daughter of childless Governor Carver. There too may you see
+a plaintive little stone to the memory of</p>
+
+<p class="center fs80 no-indent">
+Consider son to Mr Consider<br>
+and Mrs. Ruth Howland,<br>
+Aged 7 years.<br>
+</p>
+</div>
+
+<p>The graves of Capt. Abraham Hammatt and Capt.
+Simeon Sampson, both mentioned in “Dr. Le Baron
+and His Daughters,” are to be seen here.</p>
+
+<p>Capt. Sampson’s tombstone is referred to among
+those of the Revolutionary patriots. That of Capt.
+Hammatt is near the group of Howland graves, and
+is thus inscribed:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">In This sacred spot Are deposited the remains of Capt
+Abraham Hammatt who died of a malignant Fever October 12th
+1797 <i>Ætatis</i> 47 And of his daughter Sophia who On the fst December
+following Fell a victim to the same Disease <i>Ætatis</i> 13.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Hers was the mildness of the rising Morn</div>
+    <div class="verse indent0">And his the radiance of the risen day.</div>
+  </div>
+</div>
+</div>
+</div>
+<p>The stone of Elder Faunce occupies a prominent
+position on the hilltop. It bears the figure of a
+skeleton, seated on an hourglass. The left hand
+of the skeleton holds a scythe, and wings are attached
+to the hourglass. Above the figure is the drawing
+of a scallop shell. The inscription is:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">Here lyes buried the Body of Mr. <span class="smcap">Thomas Faunce</span> ruling
+<span class="smcap">Elder</span> of the first Church of <span class="smcap">Christ</span> in <i>Plymouth</i> deceased
+Febry 27th An: Dom. 1745-6 in the 99th year of his Age.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The Fathers, where are they?</div>
+    <div class="verse indent0">Blessed are the dead who</div>
+    <div class="verse indent0">Die in the Lord.</div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<p><span class="pagenum" id="Page_27">[Pg 27]</span></p>
+
+<p>Near by are entombed the remains of Dr. Chandler
+Robbins, and on the stone we read:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">This Stone Consecrated to the memory Of the Revd Chandler
+Robbins D D was erected By the inhabitants of the first
+Religious Society in Plymouth As their last grateful tribute of
+respect For his eminent labors In the ministry of <em class="gesperrt">JESUS
+CHRIST</em> Which commenced January 30th 1760 And continued
+till his death June 30th 1799 Ætatis 61 When he entered into
+the everlasting rest Prepared for the faithful ambassadors Of the
+most high God.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Ah come heaven’s radiant Offspring hither throng</div>
+    <div class="verse indent0">Behold your prophet your Elijah fled</div>
+    <div class="verse indent0">Let sacred symphony attune each tongue</div>
+    <div class="verse indent0">To chant hosannahs with the virtuous dead.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<figure class="figcenter illowp56" id="i027" style="max-width: 47em;">
+  <img class="w100" src="images/i027.jpg" alt="James Kendall tombstone">
+</figure>
+
+<p>A few feet away is the white marble slab erected
+to the memory of another noted divine, Dr. James<span class="pagenum" id="Page_28">[Pg 28]</span>
+Kendall, of blessed memory, who for more than half
+a century served the First Church as its pastor. It
+is thus inscribed:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">Rev. James Kendall, D.D. Ordained 1 Jan. 1800. Died
+17 March 1859. Aged 89 years. For sixty years Minister of
+the First Parish in this town.</p>
+</div>
+
+<p>Plymouth played her part in the Revolution, and
+of her soldiers and sailors who fought in that memorable
+struggle a number are buried in this historic
+ground.</p>
+
+<p>Near the site of the old fort an iron fence encloses
+the Warren lot. Within it stands the monument of
+Gen. James Warren, president of the Provincial Congress
+and major-general of the militia. He died in
+1808. His wife, Mercy Warren, sister of James Otis,
+the patriot, lies in the same enclosure. She was a
+woman of marked literary ability, and the author of
+several works. Their son James, who served with
+Paul Jones on the “Bon Homme Richard,” and who
+lost a limb in one of the naval engagements, is said
+to have been buried in this lot, but there is no stone
+to indicate the grave. It is quite probable that the
+body was laid away in the Warren tomb, at the foot
+of the hill.</p>
+
+<p>Capt. Simeon Sampson was another Revolutionary
+hero of renown. His stone is to be seen on the
+northerly side of the hill, near the path leading from
+School to Russell Streets. In 1762 he was taken
+prisoner by the French and held for ransom, but
+escaped from his captors by assuming female attire.
+At the outbreak of the Revolution, when a marine
+force was deemed necessary to protect our commerce<span class="pagenum" id="Page_29">[Pg 29]</span>
+from depredation by British cruisers, he was the first
+naval captain in the continental service to be appointed
+by the Provincial Congress of Massachusetts.
+He died in 1789 at the age of fifty-three, and his
+epitaph tells us:—</p>
+
+<figure class="figcenter illowp52" id="i029" style="max-width: 44em;">
+  <img class="w100" src="images/i029.jpg" alt="Simeon Sampson tombstone">
+</figure>
+<span class="pagenum" id="Page_30">[Pg 30]</span>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">O ye whose cheek the tear of pity stains</div>
+    <div class="verse indent0">Draw near with pious reverence and attend</div>
+    <div class="verse indent0">Here lie the loving Husbands dear remains</div>
+    <div class="verse indent0">The tender Father and the courteous Friend</div>
+    <div class="verse indent0">The dauntless heart yet touched by human woe</div>
+    <div class="verse indent0">A Friend to man to vice alone a Foe.</div>
+  </div>
+  </div>
+</div>
+
+
+<p>Not far away is the stone of Gen. Nathaniel Goodwin,
+a well-known military character of the last century.
+His house was where the Baptist church now
+stands. He had charge of the enlistments for the
+Revolutionary army in this quarter of the State. On
+the surrender of Burgoyne and his men, Gen. Goodwin
+was placed in command of the guard over them
+at Somerville. Burgoyne’s sword fell into his possession.
+He died in 1819.</p>
+
+<p>Just across the path from the grave of William
+Crowe is the tombstone of Capt. Jacob Taylor, another
+of Plymouth’s Revolutionary patriots, who died
+in 1788. Beneath the name and date we read these
+quaintly worded lines:—</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Through life he brav’d her foe if great or small</div>
+    <div class="verse indent0">And march’d out forem<i>u</i>st at his country’s call.</div>
+  </div>
+  </div>
+</div>
+
+<p>On the southeasterly hillside we catch sight of the
+name of Capt. Nathaniel Carver, beneath the weeping-willow
+and urn, the common mortuary emblems
+of those days. Capt. Carver commanded a vessel
+which was captured by the famous Admiral Nelson.
+The Yankee captain was enabled, however, to do the
+great naval officer a good turn by piloting him out
+of a place of danger; and the following document,
+in possession of Hon. William T. Davis, the historian
+of Plymouth, explains itself:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">These are to certify that I took the schooner Harmony.
+Nathaniel Carver, master, belonging to Plymouth, but on acc’t
+of his good services have given him up his vessel again. Dated
+on b’d His Majesty’s ship Albemarle, 7 Aug., 1782, in Boston
+Bay.</p>
+
+<p class="right fs80">
+<span class="smcap">Horatio Nelson.</span><br>
+</p>
+</div>
+
+<p><span class="pagenum" id="Page_31">[Pg 31]</span></p>
+
+<p>On the west side of the hill are the graves of Dr.
+William Thomas, a surgeon in the expedition against
+Louisburg in 1745; and his sons Joshua, who was on
+the staff of the Revolutionary Gen. Thomas; Joseph,
+a captain of artillery in the Revolution; John, a surgeon’s
+mate under his father; and Nathaniel, who was
+also engaged in the struggle for independence.</p>
+
+<p>Other soldiers of our first war who are buried here
+are Dr. James Thatcher, a surgeon in the American
+army, and an early historian of Plymouth; Col. Ben
+Warren, a brave officer, whose grave is unmarked:
+and Capt. William Pearson, who, as his epitaph informs
+us, was “a true patriot and a hero of the Revolution.”
+Col. Warren, by the way, has some claim
+to distinction from having married four wives, the
+last marriage taking place fifty-eight years after the
+first—a circumstance which for a time puzzled the
+searchers of genealogical records. Speaking of “men
+of war,” mention should be made of Caleb Cook,
+whose place of interment is near the Le Baron graves.
+He was with Capt. Church at the battle in which
+King Philip was killed. There are known to be graves
+of at least twenty-two Revolutionary patriots on the
+hill, and 193 who served in the late Rebellion are
+buried here.</p>
+
+<p>Many visitors to Burial Hill, particularly those
+of the Baptist faith who hold in reverence the name
+of its great missionary, find more than a passing
+interest in the white marble slab which stands as a
+memorial to the Judson family. It is near the site
+of the watch-tower, and is enclosed by white wooden
+palings. It bears the following inscription:—</p>
+
+<p><span class="pagenum" id="Page_32">[Pg 32]</span></p>
+
+<figure class="figcenter illowp100" id="i032" style="max-width: 62.5em;">
+  <img class="w100" src="images/i032.jpg" alt="">
+  <figcaption class="caption"><p class="center">THE JUDSON FAMILY.</p></figcaption>
+</figure>
+
+<p><span class="pagenum" id="Page_33">[Pg 33]</span></p>
+
+<div class="blockquot fs80">
+
+<p>Sacred to the memory of Rev. ADONIRAM JUDSON, who
+died Nov. 28, 1826, Æ. 75. A faithful and devoted Minister of
+Christ. ELNATHAN JUDSON, M. D. who died at Washington
+City May 8, 1829, Æ. 34 years. ANN H. JUDSON, his
+dau. died May 30, 1832, Æ. 7 years. ELLEN YOUNG, his
+wife, died Nov. 25, 1832, Æ. 30 y’rs. ANN H. JUDSON,
+Missionary to Burmah, who died at Amherst, B. E. Oct. 24,
+1826, Æ. 37 y’rs. ROGER W. JUDSON, died May 4, 1816,
+Æ. 8 mo. MARIA E. B. JUDSON, died April 24, 1827, Æ.
+2 yrs. 3 mo. SARAH B. JUDSON, Missionary to Burmah,
+who died in the port of St. Helena, Sept. 1, 1845, Æ. 42 y’rs.
+ADONIRAM JUDSON, D. D. Missionary of the American
+Baptist Missionary Union to the Burman Empire, who died at
+Sea, April 12, 1850, Æ. 62 years. EMILY C. widow of Adoniram
+Judson, D. D. &amp; Missionary to Burmah, died June 1,
+1854, Æ. 37 y’rs. ABIGAIL BROWN JUDSON, born in
+Malden, March 21, 1791, died in Plymouth, Jan. 25, 1884.</p>
+</div>
+
+<figure class="figcenter illowp71" id="i033" style="max-width: 59.4375em;">
+  <img class="w100" src="images/i033.jpg" alt="Caleb Cook tombstone">
+</figure>
+
+<hr class="r65">
+
+<p><span class="pagenum" id="Page_34">[Pg 34]</span></p>
+
+<figure class="figcenter illowp100" id="i034" style="max-width: 62.5em;">
+  <img class="w100" src="images/i034.jpg" alt="Thomas Russell tombstone">
+</figure>
+
+<p><span class="pagenum" id="Page_35">[Pg 35]</span></p>
+
+<p>In the same enclosure is a stone inscribed as
+follows:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">Sacred to the memory of MRS. ABIGAIL widow of the
+late Rev. Adoniram Judson who died Jan. 31, 1842, aged 82
+years.</p>
+
+<p class="fs80">Her hope was in the Gospel of our Lord and Saviour
+Jesus Christ. She felt the balm and efficacy of those leaves
+which are for the healing of the nations.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">A guilty weak and helpless worm,</div>
+    <div class="verse indent2">On thy kind arms I fall</div>
+    <div class="verse indent0">Be thou my guide and righteousness</div>
+    <div class="verse indent2">My Jesus and my all.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<p>A few steps along the path northward from the
+Judson lot, and we come to a rough boulder on which
+is carved the name of Thomas Russell, and the dates
+Sept. 26, 1825, and Feb. 9, 1887. Judge Russell was
+for many years president of the Pilgrim Society and
+took an active interest in the history of the old town.
+It is fitting that his earthly remains should find a
+resting-place in this ground.</p>
+
+<p>Under the shadow of the Bradford monument, not
+many feet away, is a blue slate stone with this inscription:—</p>
+
+<div class="blockquot">
+
+<p class="fs80">Here lies the body of ye honorable Major William Bradford,
+who expired Feb. ye 20th 1703-4, aged 79 y’rs.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">He lived long but still was doing good</div>
+    <div class="verse indent0">&amp; in his country’s service lost much blood;</div>
+    <div class="verse indent0">After a life well spent he’s now at rest,</div>
+    <div class="verse indent0">His very name and memory is blest.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<p>The stone of Nathaniel Morton, which we see a
+little way beyond, is chiefly interesting from its figure
+of a man rising from the tomb, emblematic of the
+resurrection.</p>
+
+<p>Let us take a turn on this part of the hill where
+we are now standing, and note some of the quaint<span class="pagenum" id="Page_36">[Pg 36]</span>
+epitaphs. Beginning with a low, moss-covered stone
+just across the path from the Russell boulder, we find
+the following worthy of our attention:—</p>
+
+<p class="center fs80 no-indent">
+To the memory of<br>
+Mr John Rider who<br>
+Dec March the 11<br>
+1756 aged 47<br>
+years Wanting<br>
+4 days.<br>
+</p>
+
+<figure class="figcenter illowp65" id="i036" style="max-width: 54.3125em;">
+  <img class="w100" src="images/i036.jpg" alt="William Bradford tombstone">
+</figure>
+
+<div class="blockquot fs80">
+
+<p>In memory of William Drew Tufts Son of Jona &amp; Priscilla
+Tufts, Born Nov. 9 1791 Died at the Island of Cuba March 29
+1811 aged Nineteen years.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Green as the bay tree, ever green,</div>
+    <div class="verse indent2">With its new foliage on,</div>
+    <div class="verse indent0">The young, the healthful have I seen,</div>
+    <div class="verse indent2">I pass’d, and they were gone.</div>
+  </div>
+  </div>
+</div>
+</div>
+<p><span class="pagenum" id="Page_37">[Pg 37]</span></p>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+<p>Sacred to the memory of <span class="smcap">Miss Sally C. Robbins</span> dau’r
+of Capt. Samuel &amp; Mrs. Sarah Robbins. She deceased by a
+fall from a chaise, Aug. 14, 1828, aged 25 years, 5 mo’s and 10
+days.</p>
+</div>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Our home is in the grave;</div>
+    <div class="verse indent0">Here dwells the multitude; we gaze around,</div>
+    <div class="verse indent0">We read their monuments, we sigh and</div>
+    <div class="verse indent0">while we sigh, we sink.</div>
+  </div>
+  </div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Here lyes ye body of William Ring who decd sum time in
+April 1729 in ye 77th year of his age.</p>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>
+Samuel H  Josiah ye  n John Cotton  Josiah Anonymus<br>
+Edward Josiah Edward Richard Roland 7 sons of Josiah<br>
+Cotton who died between ye year 1712 &amp; 1734<br>
+</p>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>To the memory of the amiable Mrs. <span class="smcap">Jane Dogget</span> Consort
+of Mr. <span class="smcap">Seth Dogget</span> who died May 31 1794 in the 26th year
+of her age also an infant Daughter by her side</p>
+</div>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Come view the seen twill fill you with surprise</div>
+    <div class="verse indent0">Behold the loveliest form in nature dies</div>
+    <div class="verse indent0">At noon she flourish’d blooming fair and gay</div>
+    <div class="verse indent0">At evening an extended corpse she lay.</div>
+  </div>
+  </div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Here lyeth buried ye body of Joseph Bartlett who departed
+this life April ye 9th 1703 in ye 38th year of his age</p>
+</div>
+
+<p class="center fs80">J. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;B.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Thousands of years after blest Abell’s fall</div>
+    <div class="verse indent0">Twas said of him being dead he speakth yet</div>
+    <div class="verse indent0">From silent grave methinks I hear a call</div>
+    <div class="verse indent0">Pray fellow-mortall, don’t your death forget</div>
+    <div class="verse indent4">You that your eyes cast on this grave</div>
+    <div class="verse indent4">Know you a dying time must have.</div>
+  </div>
+  </div>
+</div>
+
+
+<p>On the easterly slope the following greet the eye:—</p>
+
+<div class="blockquot fs80">
+
+<p>This Stone is erected to the memory of twin children of
+Ephraim Finney and Phebe his wife who were born Octr 27,
+1822, Elizabeth died March 10, 1823, Ezra died September 14,
+1823.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">My friends behold what death has done</div>
+    <div class="verse indent0">Taken these babes when they were young</div>
+    <div class="verse indent0">Prepare to live prepare to die</div>
+    <div class="verse indent0">Prepare for long Eternity.</div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<hr class="r5">
+
+<p><span class="pagenum" id="Page_38">[Pg 38]</span></p>
+
+<div class="blockquot fs80">
+
+<p>James Jordan. Drowned in Smelt Pond, June 25, 1837, aged
+27 y’rs.</p>
+
+<p>Buried on the day he was to have been married.</p>
+</div>
+
+<hr class="r5">
+
+<p>Near this is a stone which is sometimes called the
+“Masonic stone.” It bears the name of Nathaniel
+Jackson, and the date 1743. Above the lettering
+the sculptor has engraved a death’s-head, a tomb,
+an hourglass, cross-bones, an urn, a rose-tree, and
+the figure of a skeleton seated on a globe.</p>
+
+<hr class="r5">
+
+<p class="center no-indent fs80">
+Departed this Life<br>
+June 23, 1796,<br>
+In the 90th year of her Age<br>
+Madam Priscilla Hobart<br>
+Relict<br>
+of the Revd Noah Hobart<br>
+late of Fairfield in Connecticut<br>
+her third husband<br>
+her first and Second<br>
+were<br>
+John Watson Esq<br>
+and<br>
+Honble Isaac Lothrop.<br>
+</p>
+
+<hr class="r5">
+
+<p class="center no-indent fs80">
+This Stone is<br>
+erected to the memory of<br>
+that unbiased Judge<br>
+Faithful Officer, sincere Friend<br>
+and honest Man<br>
+Coll Isaac Lothrop<br>
+who resigned this Life<br>
+on the 26th day of April 1750<br>
+in the 43 year of his age.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Had Virtues Charms the power to save</div>
+    <div class="verse indent0">Its faithful Votaries from the grave</div>
+    <div class="verse indent0">This stone would neer possess the fame</div>
+    <div class="verse indent0">Of being marked by Lothrop’s name.</div>
+  </div>
+  </div>
+</div>
+
+<hr class="r5">
+
+<p>Continuing our search along the southeasterly
+slope we find these three. The first two quoted are
+near the tombs at the foot of the hill:—</p>
+
+<p><span class="pagenum" id="Page_39">[Pg 39]</span></p>
+
+<div class="blockquot fs80">
+
+<p>In memory of John W. Howard Son of Capt. James Howard
+&amp; Mrs. Hannah his wife born March 20, 1815 died April 2, 1815</p>
+</div>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">He glanc’d into the world to see</div>
+    <div class="verse indent0">A sample of our misery.</div>
+  </div>
+  </div>
+</div>
+
+
+<figure class="figcenter illowp83" id="i039" style="max-width: 113.5em;">
+  <img class="w100" src="images/i039.jpg" alt="Nath. Jackson tombstone">
+</figure>
+
+<div class="blockquot fs80">
+
+<p>In memory of Four Children of Mr Zacheus Kempton &amp;
+Sarah his wife viz Sally aged 36 years Charles aged 21 years
+Woodard aged 17 years Robinson aged 2 years They died
+between 1802 &amp; 1820.</p>
+</div>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Stop traveller and shed a tear</div>
+    <div class="verse indent0">Uppon the sod of children dear.</div>
+  </div>
+  </div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In memory of Thomas Paty son of Mr Thomas Paty and
+Mrs Jorusha his wife who departed this life Oct 7th 1802 aged
+2 years 10 months and 20 days.</p>
+
+<p class="center">And must thy childrin Dye so soon.</p>
+</div>
+
+<hr class="r5">
+
+<p><span class="pagenum" id="Page_40">[Pg 40]</span></p>
+
+<p>Passing around the southerly edge of the hill, we
+pause a moment to read these words:—</p>
+
+<div class="blockquot fs80">
+
+<p>To the memory of Isaac Eames Cobb who was born Jany 19,
+1789, and died Jany 14, 1821.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Possess’d he talents ten, or five or one</div>
+    <div class="verse indent0">The work he had to do that work was done</div>
+    <div class="verse indent0">Improv’d his mind, in wisdom’s ways he trod</div>
+    <div class="verse indent0">Reluctant died, but died resigned to <em class="gesperrt">GOD</em>.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<p>For quaintness of diction this is well matched by
+the two following headstones, which are close at
+hand:—</p>
+
+<div class="blockquot fs80">
+
+<p>To the memory of Thomas Bartlett son of Mr. Thomas &amp;
+Mrs. Ruth Bartlett who died Septr 9th 1802 aged 1 year 2
+months 11 days.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">That once loved form now cold &amp; dead,</div>
+    <div class="verse indent0">Each mournfull thought imploys</div>
+    <div class="verse indent0">And nature weeps his comforts fled</div>
+    <div class="verse indent0">And withered all his joys,</div>
+  </div>
+    <div class="verse indent0">But ceas fond nature dry thy tears</div>
+    <div class="verse indent0">Religion pints on high</div>
+    <div class="verse indent0">And ever lasting spring appears</div>
+    <div class="verse indent0">And joys that never die.</div>
+  </div>
+  </div>
+</div>
+
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Here lyes buried ye body of Mr. Thomas Little Practitioner
+in Physick &amp; Chyrurgery Aged 58 years Decd Decemr ye 22
+1712</p>
+</div>
+
+<p>As we turn thence westerly we pass these inscriptions:—</p>
+
+<div class="blockquot fs80">
+
+<p>Erected to the memory of Mrs. MEHITABEL, wife of Capt.
+Thos. Atwood, who died Jan. 11, 1809, In the 58 year of her
+age. In early life her feeble constitution gave painful premonition
+of her early exit. She however unexpectedly passed the
+meridian of life, discharging in a very laudable manner, filial
+parental &amp; conjugal duties. At length the seeds of death
+were planted in her vitals—she sickened, languished &amp; expired
+in hopes of a blessed immortality.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Short is our longest day of life,</div>
+    <div class="verse indent0">And soon its prospect ends</div>
+    <div class="verse indent0">Yet on that day’s uncertain date</div>
+    <div class="verse indent0">Eternity depends.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+<hr class="r5">
+
+<p><span class="pagenum" id="Page_41">[Pg 41]</span></p>
+
+<div class="blockquot fs80">
+
+<p><em class="gesperrt">ANDREW FARRELL</em>, of respectable connexions In <em class="gesperrt">IRELAND</em>
+Aged 38 years, Owner &amp; Commander of the Ship
+Hibernia, Sailed from Boston Jany 26, And was wrecked on
+Plymouth Beach Jany 28 1805. His remains With five of seven
+seaman Who perished with him are here interred.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">O piteous lot of man’s uncertain state!</div>
+    <div class="verse indent0">What woes on life’s eventful journey wait—</div>
+    <div class="verse indent0">By sea what treacherous calms; what sudden storms;</div>
+    <div class="verse indent0">And death attendant in a thousand forms.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In memory of Mr Benjamin Harlow who died November
+18th 1816 aged 34 years.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Friends and physicians could not save</div>
+    <div class="verse indent0">My mortal Body from the Grave</div>
+    <div class="verse indent0">Nor can the Grave confine me here</div>
+    <div class="verse indent0">When Christ the son of God appears</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<p>The westerly side of the hill abounds in curious
+inscriptions, and among them we note the following:—</p>
+
+<p class="center fs80 no-indent">
+Here lies Interrd<br>
+The Body of Ms<br>
+<em class="gesperrt">SARAH SPOONER</em><br>
+who deceased<br>
+January<br>
+Ye 25th AD 1767<br>
+In ye 72d year of<br>
+her age. She was<br>
+widow to ☞</p>
+
+<div class="blockquot fs80">
+
+<p>(The hand points to the next stone, which marks the grave
+of her husband.)</p>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Sacred to the memory of Phebe J. Bramhall, A native of
+Virginia &amp; wife of Benjn Bramhall Jun who died August 27,
+1817, aged 21 years.</p>
+
+<p class="no-indent">
+Possess’d of an amiable disposition, She endeared herself to<br>
+all around her<br>
+“but”<br>
+Weep not for her in her Spring time she flew<br>
+To that land, where the wings of the soul are unfurl’d<br>
+And now, like a star beyond evening’s cold dew<br>
+Looks radiantly down on the tears of this world.<br>
+</p>
+</div>
+
+<p><span class="pagenum" id="Page_42">[Pg 42]</span></p>
+
+<figure class="figcenter illowp100" id="i042" style="max-width: 62.5em;">
+  <img class="w100" src="images/i042.jpg" alt="Sarah Spooner tombstone on left and
+Thomas Spooner on right">
+</figure>
+
+<p><span class="pagenum" id="Page_43">[Pg 43]</span></p>
+
+<div class="blockquot fs80">
+
+<p>Consecrated to the Memory of Mrs Mary Dyer who died
+April 17th 1805 aged 47 years</p>
+
+<p>One thing is needfull And Mary hath chosen that Good part
+which shall not be taken away from her.</p>
+</div>
+
+<figure class="figcenter illowp50" id="i043" style="max-width: 42.3125em;">
+  <img class="w100" src="images/i043.jpg" alt="Calvin Crombie tombstone">
+</figure>
+
+<div class="blockquot fs80">
+
+<p>Fanney Crombie daughter of Mr Calvin Crombie &amp; Mrs
+Naomi his wife Departed this life June 25th 1804 in the 8th year
+of her age.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">As young as beautiful! and soft as young!</div>
+    <div class="verse indent0">And gay as soft! and innocent as gay!</div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<p><span class="pagenum" id="Page_44">[Pg 44]</span></p>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Erected in memory of Mr. William Keen, who died February
+18, 1825, aged 69.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">This modest stone, what few vain marbles can,</div>
+    <div class="verse indent0">May truly say, Here lies an honest man.</div>
+    <div class="verse indent0">Calmly he looked on either life, and here</div>
+    <div class="verse indent0">Saw nothing to regret, or there to fear.</div>
+    <div class="verse indent0">From Nature’s temperate feast rose satisfied,</div>
+    <div class="verse indent0">Thank’d Heav’n that he had lived and that he died.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Here lies inter’d the body of <i>Miss Hannah Symmes</i> eldest
+Daughter of <i>Mr Isaac and Mrs Hannah Symmes</i> who at the
+early period of 28 years after being long exercis’d with bodily
+pain with christian fortitude yielded her spirit to its benevolent
+Author. Born Jany 30, 1766, Died March 27, 1794.</p>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>To the memory of <span class="smcap">Thomas Jackson</span> <i>Esqr</i> This Monument
+is erected Obiit September 19, 1794, Aged 67 years</p>
+</div>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The spider’s most attenuated thread</div>
+    <div class="verse indent0">Is cord, is cable, to man’s slender tie.</div>
+  </div>
+</div>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Consecrated to the memory of Mrs <em class="gesperrt">PEGGY HOLBROOK</em>
+wife of Mr Jeremiah Holbrook who departed this life August
+28th 1811 aged 26 years</p>
+
+<p>Her amiable Disposition endeared her to her friends and
+died lamented by all who knew her</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Though harsh the strike and most severe the rod</div>
+    <div class="verse indent0">Cease mourner cease it was a strike from God</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<p class="center no-indent fs80">
+I<br>
+am erected<br>
+by<br>
+<i>Josiah Cotton Esqr</i><br>
+in remembrance of Rachel his pious and Virtuous Wife, who<br>
+<span style="margin-left: -9.25em;">died Janury 17th 1808 aged 50 years.</span><br>
+In belief of Christianity I lived,<br>
+In hope of a glorious Resurrection I died.<br>
+</p>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p class="center">F. W. Jackson Obiit March 23, 1799 Aged One year 7 days.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Heav’n knows What man</div>
+    <div class="verse indent0">He might have made, But we</div>
+    <div class="verse indent0">He died a most rare boy.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<p><span class="pagenum" id="Page_45">[Pg 45]</span></p>
+
+<p>The three latter are on the extreme westerly edge
+of the ground, not far from the corner where the
+powder house was built in 1770. No trace of this
+structure remains.</p>
+
+<p>Turning our steps toward the northerly side, the
+following epitaphs invite our attention:—</p>
+
+<div class="blockquot fs80">
+
+<p>To the Memory Of Mrs. <span class="smcap">Anna Jackson</span> Obii. July 20, 1794
+Aged 28 years.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Death is the privilege of human nature,</div>
+    <div class="verse indent0">And life without it were not worth our taking</div>
+    <div class="verse indent0">Thither the poor, the unfortunate, and Mourner</div>
+    <div class="verse indent0">Fly for relief &amp; lay their burdens down.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In Memory of Ezra Thayer Jackson son of Mr Thomas
+Jackson 2d &amp; Mrs Lucy his wife who died Novr 23d 1783 Aged
+25 days</p>
+
+<p>What did the Little hasty Sojournr find so forbidding &amp;
+disgustful in our upper World to occasion its precipitant exit.</p>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In Memory of Frederick son of Mr Thomas Jackson and
+Mrs Lucy his wife who died March J5, J788 aged J year &amp; 5
+days</p>
+
+<p>O! happy Probationer! accepted without being exercised!—
+It was thy peculiar Privilege not to feel the slightest of those
+Evils, which oppress thy surviving kindred.</p>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>Here lies Buried the Body of Mrs <span class="smcap">Hannah Goodwin</span>, the
+wife of Mr John Goodwin and daughter of Mr Thomas and
+Mrs <span class="smcap">Sarah Jackson</span> who departed this life March 8th AD.
+1777; in the 22d Year of her Age.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">A Soul pre par’d Needs no delays</div>
+    <div class="verse indent0">The Summons comes the Saint obeys</div>
+    <div class="verse indent0">Swift was Her flight &amp; short the Road</div>
+    <div class="verse indent0">She close’d Her Eyes &amp; saw Her God</div>
+    <div class="verse indent0">The Flesh rests here till Jesus comes</div>
+    <div class="verse indent0">And claims the Treasure from the Tomb</div>
+  </div>
+  </div>
+</div>
+</div>
+
+<p><span class="pagenum" id="Page_46">[Pg 46]</span></p>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In memory of Harriet Daughter of Mr Samuel &amp; Mrs
+Hannah Jackson who died Sept. 17, 1793 aged 10 months &amp; 3d
+(piece gone)</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Babes thither caught from Womb and Breast</div>
+    <div class="verse indent0">Claim Right to sing above the Rest</div>
+    <div class="verse indent0">Because they found the happy shore</div>
+    <div class="verse indent0">They never saw nor sought before.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In memory of Mrs. Tabitha Plasket who died June 10, 1807
+aged 64 years.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Adieu vain world I have seen enough of the</div>
+    <div class="verse indent0">And I am careless what thou say’st of me</div>
+    <div class="verse indent0">Thy smiles I wish not;</div>
+    <div class="verse indent0">Nor thy frowns I fear,</div>
+    <div class="verse indent0">I am now at rest my head lies quiet here.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In Memory of Mr. JOSEPH PLASKET who died August 1,
+AD. 1794 in the 48 year of his age</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">All you that doth behold my stone</div>
+    <div class="verse indent0">Consider how soon I was gone</div>
+    <div class="verse indent0">Death does not always warning give</div>
+    <div class="verse indent0">Therefore be careful how you live</div>
+    <div class="verse indent0">Repent in time, no time delay</div>
+    <div class="verse indent0">I in my prime was called away.</div>
+  </div>
+  </div>
+</div>
+
+<p>(Tabitha Plasket was for many years a school-teacher in
+Plymouth and was well known as an eccentric character.)</p>
+</div>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>BATHSHEBA JAMES widow of Capt William Holmes
+3d Mariner and daughter to Capt Joseph Doten Do. she was
+killed instantaneously in a thunder storm by the Electrich fluid
+of lightning on the 6th of July 1830, aged 35 years and 26 days.</p>
+
+<p>She was an affectionate wife; a dutiful Daughter, a happy
+mother, a kind and sincere friend. Alas sweet Blossom short
+was the period that thy enlivening virtues contributed to the
+Happiness of those connections; But oh, how long have they to
+mourn the loss of so much worth and Excellence.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Farewell dear Wife untill that day more blest</div>
+    <div class="verse indent0">When if deserving I with thee shall rest,</div>
+    <div class="verse indent0">With thee shall rise with thee shall live above</div>
+    <div class="verse indent0">In worlds of endless bliss and boundless love.</div>
+  </div>
+</div>
+</div>
+
+</div>
+<p><span class="pagenum" id="Page_47">[Pg 47]</span></p>
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In memory of William Brewster Son of Capt William Brewster
+&amp; Mrs Elizabeth his wife died April 5th 1804 aged one year
+5 months &amp; 17 days</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The father and the children dead</div>
+    <div class="verse indent0">We hope to Heaven their souls are fled</div>
+    <div class="verse indent0">The widow now alone is left</div>
+    <div class="verse indent0">Of all her family bereft.</div>
+    <div class="verse indent0">May she now put her trust in God.</div>
+    <div class="verse indent0">To heal the wounds made by his rod.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<p class="fs80">
+Capt Ellis Brews &emsp;and Mrs Nancy &emsp;wife died Dec 13<br>
+180 &emsp;aged 4 &emsp;years<br>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">He listen’d for a while to hear</div>
+    <div class="verse indent0">Our mortal griefs; then tun’d his ear</div>
+    <div class="verse indent0">To angel harps and songs, and cried</div>
+    <div class="verse indent0">To join their notes celestial, sigh’d and dyed.</div>
+  </div>
+  </div>
+</div>
+
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>To the memory of Lemuel Cobb Robbins son of Capt Ansel
+Robbins and Hannah his wife who died Oct 2sd 1801 aged 1
+year &amp; 10 days</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">We have no Reason for to mourn</div>
+    <div class="verse indent2">For gods will must be don</div>
+    <div class="verse indent0">He lent him for a little space</div>
+    <div class="verse indent2">Then sudden Called him home</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<hr class="r5">
+
+<div class="blockquot fs80">
+
+<p>In memory of Elizabeth Savery, wife of Lemuel Savery who
+died August 1, 1831, Aged 71 years.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Remember me as you pass by,</div>
+    <div class="verse indent0">As you are now so once was I;</div>
+    <div class="verse indent0">As I am now so you must be,</div>
+    <div class="verse indent0">Prepare for death to follow me.</div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<p>There are about 2,150 headstones on Burial Hill,
+and many graves are unmarked. In some cases,
+undoubtedly, this absence of a memorial is due to
+the considerable cost of stones in the early days.
+In other instances the monuments have fallen prey<span class="pagenum" id="Page_48">[Pg 48]</span>
+to the ravages of time. Rigid restrictions now govern
+burials in this ground.</p>
+
+<figure class="figcenter illowp61" id="i048" style="max-width: 50.9375em;">
+  <img class="w100" src="images/i048.jpg" alt="Nathaniel Morton tombstone">
+</figure>
+
+<p>Standing thus among the graves of the pioneer dead
+and putting all modern life behind him, one’s thoughts
+go back across the centuries and grasp, with a new
+sense of reality, the facts of Pilgrim history. The
+Forefathers, who did brave deeds and suffered much,
+and planted in the wilderness the seeds of a free<span class="pagenum" id="Page_49">[Pg 49]</span>
+nation, stand forth not as shadowy historical figures,
+but as living men. And thinking on such things, these
+words of the poet Pierpont find ready echo:—</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">“The Pilgrim spirit has not fled,</div>
+    <div class="verse indent2">It walks in noon’s broad light;</div>
+    <div class="verse indent0">And it watches the bed of the glorious dead,</div>
+    <div class="verse indent2">With the holy stars, by night.</div>
+    <div class="verse indent0">It watches the bed of the brave who have bled,</div>
+    <div class="verse indent2">And shall guard this ice-bound shore,</div>
+    <div class="verse indent0">Till the waves of the bay, where the Mayflower lay,</div>
+    <div class="verse indent2">Shall foam and freeze no more!”</div>
+  </div>
+  </div>
+</div>
+
+<figure class="figcenter illowp72" id="i049" style="max-width: 107.8125em;">
+  <img class="w100" src="images/i049.jpg" alt="Thomas Faunce tombstone">
+</figure>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_50">[Pg 50]</span></p>
+
+<h2 class="nobreak" id="Members_of_the_Mayflower_Company">Members of the Mayflower Company</h2>
+</div>
+
+<table class="autotable fs80">
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_1" href="#Footnote_1" class="fnanchor">[1]</a>John Carver.</td>
+<td class="tdc" style="width:10%;">1.</td>
+<td class="tdl"><a id="FNanchor_2" href="#Footnote_1" class="fnanchor">[1]</a>Samuel Fuller.<a id="FNanchor_7" href="#Footnote_2" class="fnanchor">[2]</a></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Katherine Carver, his wife.</td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Desire Minter.</td>
+<td class="tdc">2.</td>
+<td class="tdl"><a id="FNanchor_3" href="#Footnote_1" class="fnanchor">[1]</a>John Crackston.</td>
+</tr>
+<tr>
+<td class="tdl" style="width:8%">8.</td>
+<td class="tdl"><a id="FNanchor_41" href="#Footnote_1" class="fnanchor">[1]</a>John Howland.<a id="FNanchor_5" href="#Footnote_5" class="fnanchor">[5]</a></td>
+<td class="tdl"></td>
+<td class="tdl">John Crackston, Jr.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Roger Wilder.</td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">William Latham.</td>
+<td class="tdc">2.</td>
+<td class="tdl"><a id="FNanchor_8" href="#Footnote_1" class="fnanchor">[1]</a>Miles Standish.<a id="FNanchor_6" href="#Footnote_2" class="fnanchor">[2]</a></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Maid Servant.</td>
+<td class="tdl"></td>
+<td class="tdl">Rose Standish, his wife.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Jasper More.</td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_9" href="#Footnote_1" class="fnanchor">[1]</a>Christopher Martin.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_10" href="#Footnote_1" class="fnanchor">[1]</a>William Brewster.<a id="FNanchor_4" href="#Footnote_4" class="fnanchor">[4]</a></td>
+<td class="tdc">4.</td>
+<td class="tdl">His wife.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Mary Brewster, his wife.</td>
+<td class="tdl"></td>
+<td class="tdl">Solomon Prower.</td>
+</tr>
+<tr>
+<td class="tdl">6.</td>
+<td class="tdl">Love Brewster.</td>
+<td class="tdl"></td>
+<td class="tdl">John Langemore.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Wrestling Brewster.</td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Richard More.<a id="FNanchor_12" href="#Footnote_2" class="fnanchor">[2]</a></td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_13" href="#Footnote_1" class="fnanchor">[1]</a>William Mullins.<a id="FNanchor_14" href="#Footnote_4" class="fnanchor">[4]</a></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">His Brother.</td>
+<td class="tdl"></td>
+<td class="tdl">Alice Mullins, his wife.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdc">5.</td>
+<td class="tdl">Joseph Mullins.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_15" href="#Footnote_1" class="fnanchor">[1]</a>Edward Winslow.<a id="FNanchor_16" href="#Footnote_2" class="fnanchor">[2]</a></td>
+<td class="tdl"></td>
+<td class="tdl">Robert Carter.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Elizabeth Winslow, his wife.</td>
+<td class="tdl"></td>
+<td class="tdl">Priscilla Mullins.</td>
+</tr>
+<tr>
+<td class="tdl">5.</td>
+<td class="tdl"><a id="FNanchor_17" href="#Footnote_1" class="fnanchor">[1]</a>George Soule.<a id="FNanchor_18" href="#Footnote_2" class="fnanchor">[2]</a></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Elias Story.</td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_19" href="#Footnote_1" class="fnanchor">[1]</a>William White.<a id="FNanchor_20" href="#Footnote_4" class="fnanchor">[4]</a></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Ellen More.</td>
+<td class="tdl"></td>
+<td class="tdl">Susanna White, his wife.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdc">6.</td>
+<td class="tdl">Resolved White.</td>
+</tr>
+<tr>
+<td class="tdl">2.</td>
+<td class="tdl"><a id="FNanchor_21" href="#Footnote_1" class="fnanchor">[1]</a>William Bradford.<a id="FNanchor_22" href="#Footnote_2" class="fnanchor">[2]</a></td>
+<td class="tdl"></td>
+<td class="tdl">Peregrine White.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Dorothy Bradford, his wife.</td>
+<td class="tdl"></td>
+<td class="tdl">William Holbeck.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl">Edward Thompson.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_23" href="#Footnote_1" class="fnanchor">[1]</a>Isaac Allerton.<a id="FNanchor_24" href="#Footnote_4" class="fnanchor">[4]</a></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Mary Allerton, his wife.</td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_25" href="#Footnote_1" class="fnanchor">[1]</a>Stephen Hopkins.<a id="FNanchor_26" href="#Footnote_4" class="fnanchor">[4]</a></td>
+</tr>
+<tr>
+<td class="tdl">6.</td>
+<td class="tdl">Bartholomew Allerton.</td>
+<td class="tdl"></td>
+<td class="tdl">Elizabeth Hopkins, his wife.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Remember Allerton.</td>
+<td class="tdl"></td>
+<td class="tdl">Giles Hopkins.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Mary Allerton.</td>
+<td class="tdc">8.</td>
+<td class="tdl">Constance Hopkins.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">John Hooke.</td>
+<td class="tdl"></td>
+<td class="tdl">Damaris Hopkins.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl">Oceanus Hopkins.</td>
+</tr>
+<tr>
+<td class="tdl">1.</td>
+<td class="tdl"><a id="FNanchor_27" href="#Footnote_1" class="fnanchor">[1]</a>Richard Warren.<a id="FNanchor_28" href="#Footnote_2" class="fnanchor">[2]</a></td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_29" href="#Footnote_1" class="fnanchor">[1]</a>Edward Doty.<a id="FNanchor_30" href="#Footnote_2" class="fnanchor">[2]</a></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_31" href="#Footnote_1" class="fnanchor">[1]</a>Edward Leister.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_32" href="#Footnote_1" class="fnanchor">[1]</a>John Billington.<a id="FNanchor_33" href="#Footnote_4" class="fnanchor">[4]</a></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl">4.</td>
+<td class="tdl">Eleanor Billington, his wife.</td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_34" href="#Footnote_1" class="fnanchor">[1]</a>Edward Fuller.<a id="FNanchor_35" href="#Footnote_4" class="fnanchor">[4]</a></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">John Billington.</td>
+<td class="tdc">3.</td>
+<td class="tdl">His wife.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Francis Billington.</td>
+<td class="tdl"></td>
+<td class="tdl">Samuel Fuller.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_36" href="#Footnote_1" class="fnanchor">[1]</a>Edward Tilley.</td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_37" href="#Footnote_1" class="fnanchor">[1]</a>John Turner.</td>
+</tr>
+<tr>
+<td class="tdl">4.</td>
+<td class="tdl">Ann Tilley, his wife.</td>
+<td class="tdc">3.</td>
+<td class="tdl">His son.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Henry Sampson.<a id="FNanchor_46" href="#Footnote_2" class="fnanchor">[2]</a></td>
+<td class="tdl"></td>
+<td class="tdl">Another son.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Humility Cooper.</td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_39" href="#Footnote_1" class="fnanchor">[1]</a>John Tilley.<a id="FNanchor_40" href="#Footnote_4" class="fnanchor">[4]</a></td>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_73" href="#Footnote_1" class="fnanchor">[1]</a>Francis Eaton.<a id="FNanchor_45" href="#Footnote_4" class="fnanchor">[4]</a></td>
+</tr>
+<tr>
+<td class="tdl">3.</td>
+<td class="tdl">His wife.</td>
+<td class="tdc">3.</td>
+<td class="tdl">Sarah Eaton, his wife.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Elizabeth Tilley.</td>
+<td class="tdl"></td>
+<td class="tdl">Samuel Eaton.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdl"></td>
+</tr>
+<tr>
+<td class="tdl">2.</td>
+<td class="tdl"><a id="FNanchor_49" href="#Footnote_1" class="fnanchor">[1]</a>Francis Cooke.<a id="FNanchor_51" href="#Footnote_4" class="fnanchor">[4]</a></td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_50" href="#Footnote_1" class="fnanchor">[1]</a>Moses Fletcher.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">John Cooke.</td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_52" href="#Footnote_1" class="fnanchor">[1]</a>Thomas Williams.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_53" href="#Footnote_1" class="fnanchor">[1]</a>Digory Priest.<a id="FNanchor_54" href="#Footnote_2" class="fnanchor">[2]</a></td>
+</tr>
+<tr>
+<td class="tdl">2.</td>
+<td class="tdl"><a id="FNanchor_55" href="#Footnote_1" class="fnanchor">[1]</a>Thomas Rogers.<a id="FNanchor_56" href="#Footnote_4" class="fnanchor">[4]</a></td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_57" href="#Footnote_1" class="fnanchor">[1]</a>John Goodman.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Joseph Rogers.</td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_58" href="#Footnote_1" class="fnanchor">[1]</a>Edmund Margeson.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_59" href="#Footnote_1" class="fnanchor">[1]</a>Richard Britteridge.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_60" href="#Footnote_1" class="fnanchor">[1]</a>Thomas Tinker.</td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_61" href="#Footnote_1" class="fnanchor">[1]</a>Richard Clarke.</td>
+</tr>
+<tr>
+<td class="tdl">3.</td>
+<td class="tdl">His wife.</td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_62" href="#Footnote_1" class="fnanchor">[1]</a>Richard Gardner.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">His son.</td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_63" href="#Footnote_1" class="fnanchor">[1]</a>Gilbert Winslow.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_64" href="#Footnote_1" class="fnanchor">[1]</a>Peter Browne.<a id="FNanchor_72" href="#Footnote_2" class="fnanchor">[2]</a></td>
+</tr>
+<tr>
+<td class="tdl">2.</td>
+<td class="tdl"><a id="FNanchor_65" href="#Footnote_1" class="fnanchor">[1]</a>John Rigdale.</td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_66" href="#Footnote_1" class="fnanchor">[1]</a>John Alden.<a id="FNanchor_71" href="#Footnote_3" class="fnanchor">[3]</a></td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Alice Rigdale, his wife.</td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_67" href="#Footnote_1" class="fnanchor">[1]</a>Thomas English.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"></td>
+<td class="tdc">1.</td>
+<td class="tdl"><a id="FNanchor_68" href="#Footnote_1" class="fnanchor">[1]</a>John Allerton.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl"><a id="FNanchor_69" href="#Footnote_1" class="fnanchor">[1]</a>James Chilton.<a id="FNanchor_70" href="#Footnote_4" class="fnanchor">[4]</a></td>
+<td class="tdc">1.</td>
+<td class="tdl">William Trevore.</td>
+</tr>
+<tr>
+<td class="tdl">3.</td>
+<td class="tdl">His wife.</td>
+<td class="tdc">1.</td>
+<td class="tdl">—— Ely.</td>
+</tr>
+<tr>
+<td class="tdl"></td>
+<td class="tdl">Mary Chilton.</td>
+<td class="tdc">1.</td>
+<td class="tdl">William Butten (died at sea).</td>
+</tr>
+</table>
+
+
+
+<div class="footnotes"><h3>FOOTNOTES:</h3>
+
+<div class="footnote">
+
+<p><a id="Footnote_1" href="#FNanchor_1" class="label">[1]</a> Signers of the Compact.</p>
+
+</div>
+
+<div class="footnote">
+
+<p><a id="Footnote_2" href="#FNanchor_2" class="label">[2]</a> Mayflower passengers from whom descent has been
+proved.</p>
+
+</div>
+
+<div class="footnote">
+
+<p><a id="Footnote_3" href="#FNanchor_3" class="label">[3]</a> Includes descent from William and Alice Mullins and their daughter
+Priscilla.</p>
+
+</div>
+
+<div class="footnote">
+
+<p><a id="Footnote_4" href="#FNanchor_4" class="label">[4]</a> Includes descent from wife or child on the Mayflower.</p>
+
+</div>
+
+<div class="footnote">
+
+<p><a id="Footnote_5" href="#FNanchor_5" class="label">[5]</a> Includes descent from John Tilley and his daughter Elizabeth.</p>
+
+</div>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_51">[Pg 51]</span></p>
+
+<div class="chapter">
+<h2 class="nobreak" id="Pilgrim_Gifts">Pilgrim Gifts</h2>
+</div>
+
+<p class="center fs130"><span class="smcap">The Mayflower Coat of Arms Plate</span></p>
+
+<figure class="figcenter illowp35" id="i051_1" style="max-width: 61.3125em;">
+  <img class="w100" src="images/i051_1.jpg" alt="Mayflower Coat of Arms Plate">
+</figure>
+
+
+<p>The crests of nine Pilgrim families combined on one
+plate: Winslow, Bradford, Warren, Brewster, Hopkins,
+White, Howland, Fuller, Alden and Standish.
+Made in the correct enamel colors. By mail, $1.35.
+Made in Old Blue. By mail, 85c.</p>
+
+<figure class="figleft illowp35" id="i051_2" style="max-width: 43.5em;">
+  <img class="w100" src="images/i051_2.jpg" alt="Plymouth Rock Guest Room Tappers">
+</figure>
+
+<p class="center fs120"><span class="smcap">Plymouth Rock<br>
+Guest Room<br>
+Tappers</span></p>
+
+<p>Made of solid brass in the
+shape of Plymouth Rock with
+figures 1620. A pleasing novelty
+for the guest room door—size
+three inches—price postpaid,
+$1.60.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter"></div>
+<p><span class="pagenum" id="Page_52">[Pg 52]</span></p>
+
+<p class="center fs130"><span class="smcap">Ivorex Plaques</span></p>
+
+<p>The plaques are made in a pleasing tone of old ivory,
+the figures beautifully modelled in relief. When hung
+on the wall by their silken cords they can hardly be
+distinguished from the real hand-carved ivory. Very
+desirable for wedding, Christmas or birthday gifts.</p>
+
+<div class="blockquot">
+
+<p class="fs80">Made in the following subjects. Size 6×9 at $2.50 each.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The Mayflower in Plymouth Harbor</div>
+    <div class="verse indent0">Landing of the Pilgrims, Dec. 21, 1620</div>
+    <div class="verse indent0">The Old Folks at Home</div>
+    <div class="verse indent0">Pilgrims Signing the Compact in the</div>
+    <div class="verse indent2">Cabin of the Mayflower, Nov. 11, 1620</div>
+    <div class="verse indent0">A Friendly Call</div>
+    <div class="verse indent0">Plymouth Colony in 1621</div>
+  </div>
+  </div>
+</div>
+
+<p class="fs80">Also in the following subjects. Size 4×7 at $1.50 each.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The March of Myles Standish</div>
+    <div class="verse indent0">Priscilla and John Alden</div>
+    <div class="verse indent0">The Return of the Mayflower</div>
+    <div class="verse indent0">National Monument to the Forefathers</div>
+    <div class="verse indent0">Pilgrim Hall</div>
+    <div class="verse indent0">“Why don’t you speak for yourself, John?”</div>
+    <div class="verse indent0">Myles Standish House, 1666</div>
+    <div class="verse indent0">John Alden House, 1653</div>
+    <div class="verse indent0">Portico over Plymouth Rock</div>
+    <div class="verse indent0">Myles Standish Monument</div>
+    <div class="verse indent0">Pilgrims Going to Church</div>
+  </div>
+  </div>
+</div>
+
+<p class="fs80">Add 15c for postage and insurance.</p>
+</div>
+
+<figure class="figleft illowp45" id="i052" style="max-width: 45.625em;">
+  <img class="w100" src="images/i052.jpg" alt="Model of Ship Mayflower">
+</figure>
+
+<br><br>
+<p class="center"><span class="smcap">Model of Ship<br>
+Mayflower</span></p>
+
+<br>
+<p class="no-indent">A Paper Weight in antique<br>
+brass or copper finish. <br>
+Postpaid 75c.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_53">[Pg 53]</span></p>
+
+
+<p class="center fs150"><span class="smcap">Reproduction of Ivorex Plaques</span></p>
+
+<figure class="figcenter illowp100" id="i053-1" style="max-width: 62.5em;">
+  <img class="w100" src="images/i053-1.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">LANDING OF THE PILGRIMS</p></figcaption>
+</figure>
+
+<figure class="figcenter illowp100" id="i053-2" style="max-width: 62.5em;">
+  <img class="w100" src="images/i053-2.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80">A FRIENDLY CALL</p></figcaption>
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_54">[Pg 54]</span></p>
+
+<figure class="figcenter illowp66" id="i054" style="max-width: 55.4375em;">
+  <img class="w100" src="images/i054.jpg" alt="Winslow">
+</figure>
+
+<p class="center fs130"><span class="smcap">Coats of Arms of Mayflower Families</span></p>
+
+<div class="blockquot">
+
+<p class="center fs80">Bradford, Howland, Standish, Alden, Brewster,<br>
+Fuller, Winslow, White, Cook, Warren, Hopkins</p>
+</div>
+
+<table class="autotable fs80">
+<tr>
+<td class="tdl" style="width:65%">Water Colors, 12×15</td>
+<td class="tdr" style="width:35%">$18.00</td>
+</tr>
+<tr>
+<td class="tdl">Water Colors, 12×15, framed, 16×20</td>
+<td class="tdr">23.00</td>
+</tr>
+<tr>
+<td class="tdl">Water Colors, 8×10</td>
+<td class="tdr">5.00</td>
+</tr>
+<tr>
+<td class="tdl">Water Colors, 8×10, framed, 11×14</td>
+<td class="tdr">7.00</td>
+</tr>
+<tr>
+<td class="tdl">Water Colors, 4×5</td>
+<td class="tdr">2.00</td>
+</tr>
+<tr>
+<td class="tdl">Water Colors, 4×5, framed, 8×10</td>
+<td class="tdr">3.50</td>
+</tr>
+<tr>
+<td class="tdl">Prints as illustrated above</td>
+<td class="tdr">.25</td>
+</tr>
+</table>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_55">[Pg 55]</span></p>
+
+
+<p class="center fs150">Pilgrim Literature</p>
+
+
+<p>History of Plymouth Plantation, 1608-1650.</p>
+
+
+<div class="blockquot fs80">
+
+<p>The original narrative by Gov. William Bradford with notes</p>
+<p>by Wm. T. Davis. By mail, $4.00.</p>
+</div>
+
+<p>Standish of Standish.</p>
+
+<div class="blockquot fs80">
+
+<p>By Jane G. Austin. A story of the Pilgrims. Deeply interesting.</p>
+<p>Historically correct. 12mo, cloth, 422 pages. By mail $2.50.</p>
+</div>
+
+<p>Betty Alden.</p>
+
+<div class="blockquot fs80">
+
+<p>By Jane G. Austin. The story of the first-born daughter of</p>
+<p>the Pilgrims. 12mo, cloth, 384 pages. By mail, $2.50.</p>
+</div>
+
+<p>A Nameless Nobleman.</p>
+
+<div class="blockquot fs80">
+
+<p>By Jane G. Austin. A story of the Old Colony, 12mo, cloth,</p>
+<p>369 pages. By mail, $2.50.</p>
+</div>
+
+<p>Dr. LeBaron and his Daughters.</p>
+
+<div class="blockquot fs80">
+
+<p>By Jane G. Austin. A story of the Old Colony. 12mo, cloth,</p>
+<p>460 pages. By mail, $2.50.</p>
+</div>
+
+<p>David Alden’s Daughter.</p>
+
+<div class="blockquot fs80">
+
+<p>And Other Stories of Colonial Times, by Jane G. Austin,</p>
+<p>12mo, cloth, 316 pages. By mail, $2.50.</p>
+</div>
+
+<p>The Pilgrims and Their History.</p>
+
+<div class="blockquot fs80">
+
+<p>By Roland G. Usher, Ph. D. The three hundred ten pages of</p>
+<p>this book contains all of the really pertinent information</p>
+<p>about the Pilgrims and their history. Illustrated, by mail,</p>
+<p>$2.25.</p>
+</div>
+
+<p>The Pilgrim Fathers.</p>
+
+<div class="blockquot fs80">
+
+<p>Containing reprints of Morton’s New England Memorial,</p>
+<p>Cushman’s Discourse, Winslow’s Relation, and other contemporary</p>
+<p>narrations, 364 pages, flexible leather, postpaid,</p>
+<p>$1.70; cloth, 90c.</p>
+</div>
+
+<p>The Women Who Came in the Mayflower.</p>
+
+<div class="blockquot fs80">
+
+<p>And their comrades who came later in The Ann and The</p>
+<p>Fortune, by Annie Russell Marble. By mail, $1.00.</p>
+</div>
+
+<p>Bradford’s History of the Plymouth Settlement,</p>
+<p>1608-1650.</p>
+
+<div class="blockquot fs80">
+
+<p>Rendered into modern English by Harold Paget. By mail,</p>
+<p>$3.50.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_56">[Pg 56]</span></p>
+
+<figure class="figleft illowp55" id="i056_1" style="max-width: 54.25em;">
+  <img class="w100" src="images/i056_1.jpg" alt="THE COMPACT">
+</figure>
+
+<br>
+<p class="center fs120"><span class="smcap">The Compact</span></p>
+
+<p>Signed in the cabin
+of the Mayflower, November
+21, 1620, with
+the names of the signers.</p>
+
+<p>Printed in old style
+type on a parchment
+paper made by hand,
+and mounted on rollers
+in form of a scroll.
+Price, securely packed,
+by mail, 40 cents.</p>
+
+<hr class="r5">
+<p class="center fs120"><span class="smcap">Priscilla Spinning Wheels</span></p>
+
+<p>A pretty souvenir of the days of Priscilla and John
+Alden. An inexpensive favor for a dinner party. Five
+inches in height—each wheel in a gift box with lines.</p>
+
+<figure class="figleft illowp25" id="i056_2" style="max-width: 19.125em;">
+  <img class="w100" src="images/i056_2.jpg" alt="spinning wheel">
+</figure>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">“Then as he opened the door, he beheld the </div>
+    <div class="verse indent4">form of Priscilla</div>
+    <div class="verse indent0">Seated beside her wheel, and the carded wool </div>
+    <div class="verse indent4">like a snow drift</div>
+    <div class="verse indent0">Piled at her knee, her white hands feeding </div>
+    <div class="verse indent4">the ravenous spindle,</div>
+    <div class="verse indent0">While with her foot on the treadle she guided </div>
+    <div class="verse indent4">the wheel in its motion.”</div>
+    <div class="verse indent28">—Longfellow.</div>
+  </div>
+</div>
+</div>
+
+<p class="center">The price 35c postpaid or<br>
+$3.20 for a dozen.</p>
+
+<hr class="r5">
+
+<p class="center fs120"><span class="smcap">Carbon Prints</span></p>
+
+<table class="autotable fs80">
+<tr>
+<td class="tdl" style="width:65%">The Pilgrim Monument, 11×14</td>
+<td class="tdr">$ .40 postpaid</td>
+</tr>
+<tr>
+<td class="tdl">Priscilla and John Alden, 14×18</td>
+<td class="tdr">.65 postpaid</td>
+</tr>
+<tr>
+<td class="tdl">Pilgrims Going to Church, 9×17</td>
+<td class="tdr">.50 postpaid</td>
+</tr>
+</table>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_57">[Pg 57]</span></p>
+
+
+
+<p class="no-indent">Cape Cod Ahoy!</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">A travel book for the summer visitor by Arthur Wilson
+Tarbell. Stories of the Pilgrim pioneers, stories of summer
+life, stories of fishing boats that go out at dawn, and best of
+all an accurate appraisal of the landscape and the seascape.
+347 pages, illustrated, postpaid $2.00.</p>
+</div>
+
+<p class="no-indent">Cape Cod, New and Old.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">By Agnes Edwards, profusely illustrated by Ruyl. Written
+with genuine appreciation of the charm of “Old Cape Cod.”
+By mail, $3.00.</p>
+</div>
+
+<p class="no-indent">Shipmasters of Cape Cod.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">by Henry C. Kittredge. A brilliant chronicle of the great
+days of sail when such Cape ships as the Starlight, the Flying
+Dragon and the Belle of the West hung up proud records
+for all time in three oceans. 320 pages, illustrated, 1935, by
+mail, $3.50.</p>
+</div>
+
+<p class="no-indent">Cape Cod.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">By Henry D. Thoreau. 16 full page illustrations. Traveling
+on foot through the Cape, Thoreau missed nothing that was
+entertaining or characteristic. By mail, $2.00.</p>
+</div>
+
+<p class="no-indent">Cape Cod Ballads.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">By Joseph C. Lincoln. By mail, $1.10.</p>
+</div>
+
+<p class="no-indent">Cape Cod and the Old Colony.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">By Albert Perry Brigham with 35 full page illustrations
+from photographs and maps. By mail, $3.50.</p>
+</div>
+
+<p class="no-indent">Cape Cod; Its People and Their History.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">By Henry Crocker Kittredge—published in 1930. Postpaid
+$5.00.</p>
+</div>
+
+<p class="no-indent">The Story of the Pilgrim Fathers.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">By Albert V. Lally is a concise history, well told, with nine
+full page illustrations from original paintings by H. A.
+Ogdten. By mail 75c.</p>
+</div>
+
+<p class="no-indent">The Old Farmer’s Almanac</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">Gives you Tides, Moon Phases, Weather Forecasts, Fish and
+Game Laws, Automobile Laws and 96 pages of valuable and
+entertaining information. The price 20c postpaid.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_58">[Pg 58]</span></p>
+
+<figure class="figright illowp45" id="i058" style="max-width: 41.5em;">
+  <img class="w100" src="images/i058.jpg" alt="Mayflower Candlestick">
+</figure>
+
+<p class="center fs120"><span class="smcap">The Mayflower<br>
+Candlestick</span></p>
+
+<p>An exact copy of a brass
+candlestick brought over in
+the Mayflower by William
+White, father of Peregrine
+White. The original candlestick
+is now in Pilgrim
+Hall. Price, $2.50 each. If
+by mail add 15 cents postage.</p>
+
+
+<p class="center fs120"><span class="smcap">Driftwood Blaze</span></p>
+
+<p>A powder which imparts
+to an open wood fire a combination
+of beautiful colors
+fully equal to driftwood. In gift boxes, 40 cents, and
+85 cents, postpaid.</p>
+
+<hr class="r5">
+
+<p class="center fs120"><span class="smcap">20 Plymouth Post Cards</span></p>
+
+<p>A special selection of our finest colored cards—Pilgrim
+Paintings—Points of Interest—Old Houses—50c the package,
+postpaid.</p>
+
+
+<p class="center fs120"><span class="smcap">Fir Balsam Incense</span></p>
+
+<p>“A breath from the pines.” Box of 36 cones 30c
+postpaid.</p>
+
+<p>Log Cabin Incense Burner with box of cones 90c
+postpaid.</p>
+
+
+<p class="center fs120"><span class="smcap">Small Brooch Pins</span></p>
+
+<p>Plymouth Rock or Ship Mayflower 15c each</p>
+
+
+<p class="center fs120"><span class="smcap">The Pilgrim Calendar</span></p>
+
+<div class="blockquot fs80">
+
+<p>A twelve sheet Calendar, 8x10 in size, with a cover picture in
+water colors.</p>
+
+<p>The twelve monthly sheets which make up the Calendar carry
+pictures of historic places in Plymouth with brief descriptions
+under each. A souvenir of real worth—a pleasing gift for
+Christmas time. The price is 75c each or six for $4.00, postpaid.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_59">[Pg 59]</span></p>
+
+
+<p class="no-indent">Yonder Sails the Mayflower</p>
+
+<div class="blockquot fs80">
+
+<p>A historical novel by Honore Morrow. A new concept of the</p>
+<p>character of the Pilgrim men and women and their problems</p>
+<p>during those last frantic, excited weeks before their great</p>
+<p>adventure began in the sailing of the Mayflower from Plymouth,</p>
+<p>England. 368 pages, 1934, postpaid, $2.50.</p>
+</div>
+
+<p class="no-indent">Courtship of Myles Standish</p>
+
+<div class="blockquot fs80">
+
+<p>Longfellow’s famous poem of the days of Priscilla and John</p>
+<p>Alden. A dainty little gift volume in board covers. By mail,</p>
+<p>30 cents.</p>
+</div>
+
+<p class="no-indent">Guide to Historic Plymouth.</p>
+
+<div class="blockquot fs80">
+
+<p>Descriptive of the historic points and localities famous in</p>
+<p>the story of the Pilgrims. Profusely illustrated, 96 pages,</p>
+<p>postpaid, 30c.</p>
+</div>
+
+<p class="no-indent">A Brief History of the Pilgrims.</p>
+
+<div class="blockquot fs80">
+
+<p>Compiled from the writings of Governor Bradford and Governor</p>
+<p>Winslow, and largely in their own words. Alphabetical</p>
+<p>list of passengers on the Mayflower with valuable notations</p>
+<p>in regard to each person. 57 pages, paper covers. By</p>
+<p>mail, 35c.</p>
+</div>
+
+<p class="no-indent">Handbook of Old Burial Hill.</p>
+
+<div class="blockquot fs80">
+
+<p>Its History, Its Famous Dead, and Its Quaint Epitaphs.
+<p>Illustrated. Postpaid, 30c.</p>
+</div>
+
+<p class="no-indent">The Story of Jones River.</p>
+
+<div class="blockquot fs80">
+
+<p>And the Settlement of Kingston, by S. Y. Bailey, illustrated,</p>
+<p>By mail, 55c.</p>
+</div>
+
+<p class="no-indent">Plymouth Tercentenary Pageant.</p>
+
+<div class="blockquot fs80">
+
+<p>100 pictures of Pilgrim Days as enacted in “The Pilgrim</p>
+<p>Spirit” by a cast of 1,300 Plymouth people. Full description</p>
+<p>of this historic event—scenes, tableaux, episodes. Size, 8 by</p>
+<p>10. Postpaid, 60c.</p>
+</div>
+
+<p class="no-indent">Handbook of Historic Duxbury.</p>
+
+<div class="blockquot fs80">
+
+<p class="no-indent">By Gershom Bradford. By mail, 55c.</p>
+</div>
+
+<p class="no-indent">John Howland, a Mayflower Pilgrim.</p>
+
+<div class="blockquot fs80">
+
+<p>By William Howland. Illustrated, postpaid, $1.65; leather</p>
+<p>binding $5.00.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_60">[Pg 60]</span></p>
+
+<figure class="figcenter illowp65" id="i060_1" style="max-width: 62.5em;">
+  <img class="w100" src="images/i060_1.jpg" alt="wax model of Plymouth Rock">
+</figure>
+
+<p class="center fs120">
+This Plymouth Rock<br>
+<span style="margin-left: 3em;">of Bayberry sweet</span><br>
+Will wax your thread<br>
+<span style="margin-left: 3em;">For sewing neat.</span><br>
+</p>
+
+
+<p>A miniature model of Plymouth Rock moulded in
+genuine bayberry wax with the date 1620. A real novelty
+for milady’s work bag. Each one in a box, 30c.</p>
+
+
+<p class="center fs120"><span class="smcap">Hand-Dipped Bayberry Candles</span></p>
+
+<p>Made from pure domestic Bayberry Wax.</p>
+
+
+<table class="autotable">
+<tr>
+<td class="tdrx">4 inch,</td>
+<td class="tdrx">$1.00 dozen</td>
+<td class="tdrxx">8 inch,</td>
+<td class="tdrx">$3.00 dozen</td>
+</tr>
+<tr>
+<td class="tdrx">6 inch,</td>
+<td class="tdrx">2.40 dozen</td>
+<td class="tdrxx">10 inch,</td>
+<td class="tdrx">4.50 dozen</td>
+</tr>
+</table>
+
+<p class="center fs80">Add 10c for postage</p>
+
+<p>One pair in gift box with spray of bayberry and
+card—6 inch, 65c—8 inch, 85c, postpaid.</p>
+
+
+<p class="center fs120"><span class="smcap">Priscilla Costumes</span></p>
+
+<p>Very desirable for use at fairs, pageants, Thanksgiving
+or New England dinners. Fine Linen White
+Caps, 50c; Neck Kerchief and Cuffs, 50c; Apron $1.00.
+The complete set in gift box, $1.50 postpaid.</p><br>
+
+<figure class="figcenter illowp65" id="i060_2" style="max-width: 62.5em;">
+  <img class="w100" src="images/i060_2.jpg" alt="bodkin">
+</figure>
+
+<p class="center fs120"><span class="smcap">“Penelope Winslow” Bodkin</span></p>
+
+<p class="fs80">A perfect copy in sterling silver, of the bodkin once owned by
+Penelope Winslow, and now in Pilgrim Hall. By mail, $1.50.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_61">[Pg 61]</span></p>
+
+
+<p class="center fs130"><span class="smcap">Pilgrim Books For Young Readers</span></p>
+
+<p>The Story of the Pilgrims, for Children.</p>
+
+<div class="blockquot fs80">
+
+<p>By Roland G. Usher—a dramatic, accurate and patriotic</p>
+<p>story which should leave in the child’s mind correct impressions</p>
+<p>about the fundamental factors in Pilgrim history.</p>
+<p>Illustrated, by mail, $1.10.</p>
+</div>
+
+<p>Pilgrim Stories.</p>
+
+<div class="blockquot fs80">
+
+<p>For Children, illustrated, postpaid, $1.00.</p>
+</div>
+
+<p>The Land of the Pilgrims.</p>
+
+<div class="blockquot fs80">
+
+<p>By J. Earle Thomson A. M., illustrated with many new</p>
+<p>pictures in half tone, 291 pages including Longfellow’s poem,</p>
+<p>“The Courtship of Myles Standish,” postpaid, $1.35.</p>
+</div>
+
+<p>Mayflower Heroes.</p>
+
+<div class="blockquot fs80">
+
+<p>The author, G. L. Archer, tells the dramatic story of the first</p>
+<p>years of the Pilgrim Colony in a uniquely fascinating way</p>
+<p>that makes the heroes of the story—Bradford, Winslow,</p>
+<p>Standish, Alden, S’quanto, Massasoit—stand out vividly to</p>
+<p>the boys and girls of today. 346 pages, illustrated, 1934, by</p>
+<p>mail, $3.00.</p>
+</div>
+
+<p>From Boston to Plymouth.</p>
+
+<div class="blockquot fs80">
+
+<p>By Anne Russell Marble. A story of the boys and girls of
+<p>1630 who came from Old England to New England. Postpaid,
+<p>$2.00.</p>
+</div>
+
+
+<p class="center fs130"><span class="smcap">Color Barometers</span></p>
+
+<p>Colonial dressed figures embossed on an easel card
+with dress material sensitive to weather changes.
+20c each postpaid.</p>
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">This little maid in <i>blue</i> appears</div>
+    <div class="verse indent2">For weather <i>dry</i> and <i>fair</i>;</div>
+    <div class="verse indent0">Puts on a <i>pink</i> when storm she fears</div>
+    <div class="verse indent2">Or <i>damp</i> and <i>humid</i> air;</div>
+    <div class="verse indent0">And when she dons a <i>violet</i> gown</div>
+    <div class="verse indent2">A change you can depend upon.</div>
+  </div>
+</div>
+</div>
+
+
+<p class="center fs130"><span class="smcap">Pilgrim Book Marks</span></p>
+
+<p>Dainty Ribbon Markers—five subjects. Priscilla—The
+Pilgrim Maiden—Massasoit—Pilgrim Monument—The
+Mayflower. Pretty for favors or class gifts.
+The price 20c each, $2.00 a dozen postpaid.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_62">[Pg 62]</span></p>
+
+
+<p class="center fs130"><span class="smcap">Plymouth Rock Chocolates</span></p>
+
+<figure class="figleft illowp25" id="i062-1" style="max-width: 35.75em;">
+  <img class="w100" src="images/i062-1.jpg" alt="Plymouth Rock Chocolates">
+</figure>
+
+<p>A solid piece of sweet chocolate
+moulded into the shape of
+Plymouth Rock, with date 1620.<br><br>
+Box of six, 25c; box of 30, for
+75c postpaid.</p>
+
+<hr class="r5">
+
+<p class="center fs130"><span class="smcap">Old Blue Pilgrim Wares</span></p>
+
+<figure class="figcenter illowp65" id="i062-2" style="max-width: 62.5em;">
+  <img class="w100" src="images/i062-2.jpg" alt="Old Blue Pilgrim Wares">
+</figure>
+
+<p>Made to our order in Staffordshire, England. Send
+for illustrated price list of Platters, Plates, Pitchers,
+Cups and Saucers. Teapots, Sugars and Creamers, etc.</p>
+
+<figure class="figleft illowp25" id="i062-3" style="max-width: 27.75em;">
+  <img class="w100" src="images/i062-3.jpg" alt="Priscilla Brooch">
+</figure>
+
+<p class="center fs130"><span class="smcap">Priscilla Brooch</span></p>
+
+<p>A neat, artistic brooch carrying a
+portrait of Priscilla. Very effective
+to wear with a Pilgrim costume.</p>
+
+<p>Size of illustration. The price, 30c
+postpaid.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_63">[Pg 63]</span></p>
+
+
+<p class="center fs150">Views In and About Plymouth</p>
+
+<p class="center fs80">
+Photographs—size 6½×8½—35c each; $3.50 a dozen<br>
+Lantern Slides, 50c each; $6.00 a dozen<br>
+Post Cards of quality, 30c a dozen<br>
+</p>
+
+
+<table class="autotable">
+<tr>
+<td class="tdrx">1</td>
+<td class="tdl">Plymouth Rock.</td>
+</tr>
+<tr>
+<td class="tdrx">2</td>
+<td class="tdl">The Portico over Plymouth Rock.</td>
+</tr>
+<tr>
+<td class="tdrx">3</td>
+<td class="tdl">The Portico and Harbor from Cole’s Hill.</td>
+</tr>
+<tr>
+<td class="tdrx">4</td>
+<td class="tdl">Portico and Cole’s Hill, first Pilgrim burial-place.</td>
+</tr>
+<tr>
+<td class="tdrx">5</td>
+<td class="tdl">Plymouth Harbor as seen from Cole’s Hill.</td>
+</tr>
+<tr>
+<td class="tdrx">6</td>
+<td class="tdl">Leyden Street, first street in New England.</td>
+</tr>
+<tr>
+<td class="tdrx">8</td>
+<td class="tdl">Leyden Street in 1622, showing first Common</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">House, Gov. Bradford’s House, and the buildings</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">assigned to Brown, Goodman, Brewster, Billington,</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Allerton, Cooke, and Winslow.</td>
+</tr>
+<tr>
+<td class="tdrx">9</td>
+<td class="tdl">Town Square, Showing Church of the First Parish,</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Town House, formerly the Old Colonial Court</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">House, built in 1749. Site of Gov. Bradford’s</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">House.</td>
+</tr>
+<tr>
+<td class="tdrx">10</td>
+<td class="tdl">Old Burial Hill, the entrance.</td>
+</tr>
+<tr>
+<td class="tdrx">12</td>
+<td class="tdl">Ancient Cannon, marking site of the Old Fort,</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Burial Hill, built in 1621 as a defense against the</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Indians, and also used as a place of worship.</td>
+</tr>
+<tr>
+<td class="tdrx">13</td>
+<td class="tdl">The Old Fort and First Meeting-house, 1621.</td>
+</tr>
+<tr>
+<td class="tdrx">14</td>
+<td class="tdl">Gov. Bradford’s Monument, Burial Hill, showing</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">also the graves of his family.</td>
+</tr>
+<tr>
+<td class="tdrx">16</td>
+<td class="tdl">Grave of John Howland, 1672.</td>
+</tr>
+<tr>
+<td class="tdrx">20</td>
+<td class="tdl">Grave of Dr. Francis Le Barron, “The Nameless</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Nobleman.”</td>
+</tr>
+<tr>
+<td class="tdrx">21</td>
+<td class="tdl">Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">22</td>
+<td class="tdl">Interior of Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">24</td>
+<td class="tdl">Landing of the Pilgrims, painting by Sargent.</td>
+</tr>
+<tr>
+<td class="tdrx">25</td>
+<td class="tdl">The Departure from Delft Haven, painting by</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Charles Lucy.</td>
+</tr>
+<tr>
+<td class="tdrx">26</td>
+<td class="tdl">Embarkation of the Pilgrims, by Weir.</td>
+</tr>
+<tr>
+<td class="tdrx">27</td>
+<td class="tdl">Gov. Carver’s Chair; Ancient Spinning-wheel.</td>
+</tr>
+<tr>
+<td class="tdrx">28<span class="pagenum" id="Page_64">[Pg 64]</span></td>
+<td class="tdl">Elder Brewster’s Chair; Cradle of Peregrine White,</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">the first Pilgrim baby.</td>
+</tr>
+<tr>
+<td class="tdrx">29</td>
+<td class="tdl">Sword of Myles Standish; Iron Pot and Pewter</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Platter, brought by Standish in the “Mayflower”;</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Chest owned by Gov. Edward Winslow.</td>
+</tr>
+<tr>
+<td class="tdrx">30</td>
+<td class="tdl">The “Mayflower” in Plymouth Harbor, from painting</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">by W. F. Halsall, Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">31</td>
+<td class="tdl">Group of Winslow Relics, Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">32</td>
+<td class="tdl">Group of White Relics, Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">33</td>
+<td class="tdl">National Monument to the Forefathers.</td>
+</tr>
+<tr>
+<td class="tdrx">34</td>
+<td class="tdl">Statue of Freedom, National Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">35</td>
+<td class="tdl">Statue of Law, National Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">36</td>
+<td class="tdl">Statue of Education, National Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">37</td>
+<td class="tdl">Statue of Morality, National Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">38</td>
+<td class="tdl">Treaty with Massasoit, alto-relief, Nat’l Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">39</td>
+<td class="tdl">Landing of Pilgrims, alto-relief, Nat’l Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">40</td>
+<td class="tdl">Clark’s Island, where the Pilgrims spent their first</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Sabbath in Plymouth.</td>
+</tr>
+<tr>
+<td class="tdrx">43</td>
+<td class="tdl">Signing of the Compact, alto-relief, Nat’l Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">46</td>
+<td class="tdl">County Court House and Registry Building.</td>
+</tr>
+<tr>
+<td class="tdrx">48</td>
+<td class="tdl">Brewster Gardens, along Town Brook.</td>
+</tr>
+<tr>
+<td class="tdrx">49</td>
+<td class="tdl">The Pilgrim Maiden, bronze statue by Kitson.</td>
+</tr>
+<tr>
+<td class="tdrx">50</td>
+<td class="tdl">Departure from Delft Haven, alto-relief, National</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">51</td>
+<td class="tdl">Pilgrim Meersteads, along Town Brook.</td>
+</tr>
+<tr>
+<td class="tdrx">55</td>
+<td class="tdl">Outlet, Billington Sea.</td>
+</tr>
+<tr>
+<td class="tdrx">56</td>
+<td class="tdl">Duxbury Light, entrance Plymouth Harbor.</td>
+</tr>
+<tr>
+<td class="tdrx">59</td>
+<td class="tdl">Church of the Pilgrimage, Congregational.</td>
+</tr>
+<tr>
+<td class="tdrx">61</td>
+<td class="tdl">The First Church, Unitarian.</td>
+</tr>
+<tr>
+<td class="tdrx">63</td>
+<td class="tdl">Mayflower Inn, Manomet.</td>
+</tr>
+<tr>
+<td class="tdrx">66</td>
+<td class="tdl">Plymouth Rock House.</td>
+</tr>
+<tr>
+<td class="tdrx">67</td>
+<td class="tdl">Hotel Pilgrim.</td>
+</tr>
+<tr>
+<td class="tdrx">68</td>
+<td class="tdl">Samoset House.</td>
+</tr>
+<tr>
+<td class="tdrx">72</td>
+<td class="tdl">Font in Austerfield Church where Gov. William</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Bradford was baptized.</td>
+</tr>
+<tr>
+<td class="tdrx">73<span class="pagenum" id="Page_65">[Pg 65]</span></td>
+<td class="tdl">Plymouth in 1622,—a combination picture, showing</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Leyden Street, the Old Fort, Landing from the</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Shallop, Plymouth Rock, and the ship “Mayflower.”</td>
+</tr>
+<tr>
+<td class="tdrx">74</td>
+<td class="tdl">Gov. Bradford’s House, Plymouth, 1621.</td>
+</tr>
+<tr>
+<td class="tdrx">75</td>
+<td class="tdl">Birthplace of William Bradford, Austerfield.</td>
+</tr>
+<tr>
+<td class="tdrx">76</td>
+<td class="tdl">Austerfield Church, England.</td>
+</tr>
+<tr>
+<td class="tdrx">79</td>
+<td class="tdl">Scrooby Church, England.</td>
+</tr>
+<tr>
+<td class="tdrx">80</td>
+<td class="tdl">Interior Scrooby Church.</td>
+</tr>
+<tr>
+<td class="tdrx">81</td>
+<td class="tdl">Scrooby Manor House, Elder William Brewster’s</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Residence.</td>
+</tr>
+<tr>
+<td class="tdrx">82</td>
+<td class="tdl">Bawtry Church, England.</td>
+</tr>
+<tr>
+<td class="tdrx">84</td>
+<td class="tdl">Site of John Robinson’s House at Leyden.</td>
+</tr>
+<tr>
+<td class="tdrx">85</td>
+<td class="tdl">Church at Leyden where John Robinson was buried.</td>
+</tr>
+<tr>
+<td class="tdrx">86</td>
+<td class="tdl">Memorial Tablet to John Robinson on Church at</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Leyden.</td>
+</tr>
+<tr>
+<td class="tdrx">87</td>
+<td class="tdl">Old Church at Delft Haven where the Pilgrims held</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">their last service before the embarkation.</td>
+</tr>
+<tr>
+<td class="tdrx">88</td>
+<td class="tdl">The Pilgrim Fathers holding their first meeting for</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">public worship in North America.</td>
+</tr>
+<tr>
+<td class="tdrx">89</td>
+<td class="tdl">“The March of Myles Standish.”</td>
+</tr>
+<tr>
+<td class="tdrx">90</td>
+<td class="tdl">The Pilgrims Sighting Land.</td>
+</tr>
+<tr>
+<td class="tdrx">93</td>
+<td class="tdl">Peregrine White House, Marshfield.</td>
+</tr>
+<tr>
+<td class="tdrx">97</td>
+<td class="tdl">Howland House, built in 1666.</td>
+</tr>
+<tr>
+<td class="tdrx">98</td>
+<td class="tdl">William Harlow House, built of timber from the</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Old Burial Hill Fort, 1677.</td>
+</tr>
+<tr>
+<td class="tdrx">99</td>
+<td class="tdl">Homestead of Gen. John Winslow, 1726.</td>
+</tr>
+<tr>
+<td class="tdrx">101</td>
+<td class="tdl">The Winslow House, built in 1754 by Edward</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Winslow, Colonial architecture.</td>
+</tr>
+<tr>
+<td class="tdrx">102</td>
+<td class="tdl">North Street, looking up from shore.</td>
+</tr>
+<tr>
+<td class="tdrx">104</td>
+<td class="tdl">Statue of Myles Standish.</td>
+</tr>
+<tr>
+<td class="tdrx">105</td>
+<td class="tdl">Myles Standish Monument.</td>
+</tr>
+<tr>
+<td class="tdrx">106</td>
+<td class="tdl">Standish House, Duxbury, 1666.</td>
+</tr>
+<tr>
+<td class="tdrx">108</td>
+<td class="tdl">Grave of Daniel Webster, Marshfield.</td>
+</tr>
+<tr>
+<td class="tdrx">112</td>
+<td class="tdl">John Alden House, Duxbury, 1653.</td>
+</tr>
+<tr>
+<td class="tdrx">113</td>
+<td class="tdl">Maj. John Bradford House, Kingston, 1675.</td>
+</tr>
+<tr>
+<td class="tdrx">115<span class="pagenum" id="Page_66">[Pg 66]</span></td>
+<td class="tdl">Grave of Myles Standish, Duxbury.</td>
+</tr>
+<tr>
+<td class="tdrx">117</td>
+<td class="tdl">Will of Peregrine White.</td>
+</tr>
+<tr>
+<td class="tdrx">120</td>
+<td class="tdl">Sailing of the Mayflower, by Charles Cope.</td>
+</tr>
+<tr>
+<td class="tdrx">121</td>
+<td class="tdl">Priscilla and John Alden, by Boughton.</td>
+</tr>
+<tr>
+<td class="tdrx">123</td>
+<td class="tdl">“Why don’t you Speak for Yourself, John?”</td>
+</tr>
+<tr>
+<td class="tdrx">124</td>
+<td class="tdl">Departure of the “Mayflower,” by Bayes.</td>
+</tr>
+<tr>
+<td class="tdrx">125</td>
+<td class="tdl">Priscilla, from painting by G. H. Boughton.</td>
+</tr>
+<tr>
+<td class="tdrx">126</td>
+<td class="tdl">Pilgrims Exiles, from painting by Boughton.</td>
+</tr>
+<tr>
+<td class="tdrx">127</td>
+<td class="tdl">Pilgrims going to Church, from painting by</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Boughton.</td>
+</tr>
+<tr>
+<td class="tdrx">129</td>
+<td class="tdl">Return of the “Mayflower,” by Boughton.</td>
+</tr>
+<tr>
+<td class="tdrx">130</td>
+<td class="tdl">Portrait of Edward Winslow, Governor of Plymouth</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Colony, one of the “Mayflower” company.</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Only authentic portrait of a “Mayflower” Pilgrim.</td>
+</tr>
+<tr>
+<td class="tdrx">139</td>
+<td class="tdl">Lorea Standish Sampler, Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">140</td>
+<td class="tdl">The Pilgrim Compact.</td>
+</tr>
+<tr>
+<td class="tdrx">141</td>
+<td class="tdl">Signing of the Compact, by Edwin White.</td>
+</tr>
+<tr>
+<td class="tdrx">142</td>
+<td class="tdl">Signing of the Compact, by Percy Moran.</td>
+</tr>
+<tr>
+<td class="tdrx">143</td>
+<td class="tdl">Original Manuscript of Mrs. Heman’s “The</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Breaking Waves Dashed High,” Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">146</td>
+<td class="tdl">Gov. Edw. Winslow’s Table, Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">147</td>
+<td class="tdl">Gov. Edw. Winslow’s Chair, 1614, Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">150</td>
+<td class="tdl">Frame of the ship “Sparrowhawk” wrecked on</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Cape Cod 1626—Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">151</td>
+<td class="tdl">The Pilgrim Charter, oldest State Document in</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">New England.</td>
+</tr>
+<tr>
+<td class="tdrx">152</td>
+<td class="tdl">Massasoit, Great Sachem of Wampanoags, bronze</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">statue by Cyrus E. Dallin.</td>
+</tr>
+<tr>
+<td class="tdrx">153</td>
+<td class="tdl">The Ship Mayflower at Sea.</td>
+</tr>
+<tr>
+<td class="tdrx">155</td>
+<td class="tdl">The Fuller Cradle.</td>
+</tr>
+<tr>
+<td class="tdrx">156</td>
+<td class="tdl">Staircase Edw. Winslow House, 1754.</td>
+</tr>
+<tr>
+<td class="tdrx">157</td>
+<td class="tdl">Doorway Edw. Winslow House, 1754.</td>
+</tr>
+<tr>
+<td class="tdrx">158</td>
+<td class="tdl">A Colonial Doorway on North Street.</td>
+</tr>
+<tr>
+<td class="tdrx">159</td>
+<td class="tdl">A Colonial Doorway on Court Street.</td>
+</tr>
+<tr>
+<td class="tdrx">160</td>
+<td class="tdl">The Howland Pulpit in First Church.</td>
+</tr>
+<tr>
+<td class="tdrx">162<span class="pagenum" id="Page_67">[Pg 67]</span></td>
+<td class="tdl">Pilgrim Memorial Monument, Provincetown.</td>
+</tr>
+<tr>
+<td class="tdrx">165</td>
+<td class="tdl">Original Daniel Webster House, 1859, Marshfield.</td>
+</tr>
+<tr>
+<td class="tdrx">166</td>
+<td class="tdl">Memorial to Mayflower Passengers, Cole’s Hill,</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">showing inscription.</td>
+</tr>
+<tr>
+<td class="tdrx">167</td>
+<td class="tdl">Same Memorial, showing names of passengers.</td>
+</tr>
+<tr>
+<td class="tdrx">168</td>
+<td class="tdl">Stone Seat, Cole’s Hill, presented by Penn. Society</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">of New England Women.</td>
+</tr>
+<tr>
+<td class="tdrx">171</td>
+<td class="tdl">Mayflower Fountain, Pilgrim Hall Garden.</td>
+</tr>
+<tr>
+<td class="tdrx">172</td>
+<td class="tdl">Mary Chilton Tablet, Spring Lane, Boston.</td>
+</tr>
+<tr>
+<td class="tdrx">173</td>
+<td class="tdl">Stone Seat, placed by Nat’l Society Daughters of</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">American Colonists in Brewster Gardens.</td>
+</tr>
+<tr>
+<td class="tdrx">174</td>
+<td class="tdl">Pilgrim Spring, Brewster Gardens.</td>
+</tr>
+<tr>
+<td class="tdrx">175</td>
+<td class="tdl">Fountain, erected by Daughters of American</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Revolution in Memory of the Women of the</td>
+</tr>
+<tr>
+<td class="tdrx"></td>
+<td class="tdl">Mayflower.</td>
+</tr>
+<tr>
+<td class="tdrx">176</td>
+<td class="tdl">Model of the Ship Mayflower, Pilgrim Hall.</td>
+</tr>
+<tr>
+<td class="tdrx">177</td>
+<td class="tdl">Antiquarian House.</td>
+</tr>
+<tr>
+<td class="tdrx">180</td>
+<td class="tdl">Plymouth Memorial Building.</td>
+</tr>
+</table>
+
+<hr class="r20">
+
+<p class="center fs130"><span class="smcap">Mayflower Paper Weights</span></p>
+
+<p>A useful souvenir for use on office or home desk.
+Finished in bronze or colors—85c postpaid.</p>
+
+<hr class="r20">
+
+<figure class="figright illowp25" id="i067" style="max-width: 24.1875em;">
+  <img class="w100" src="images/i067.jpg" alt="Colonial Mirrors">
+</figure>
+
+<p class="center fs130"><span class="smcap">Colonial Mirrors</span></p>
+
+<p>Useful and ornamental are these
+mirrors framed in Colonial black and
+gold with panels in color of Pilgrim
+subjects. Outside measure 7 by 13,
+$3.25, or 10 by 18 $5.75 postpaid.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_68">[Pg 68]</span></p>
+
+<figure class="figright illowp25" id="i068-1" style="max-width: 37.625em;">
+  <img class="w100" src="images/i068-1.jpg" alt="Polished Brass Cape Cod Fire Lighter">
+</figure>
+
+<p class="center fs120">“EVERYBODY LOVES A LOG FIRE”</p>
+
+<p class="center">Start it Quickly with</p>
+
+<p class="center fs120"><span class="smcap">The Cape Cod Fire Lighter</span></p>
+
+
+<p class="center fs120">POLISHED BRASS</p>
+
+<table class="autotable">
+<tr>
+<td class="tdl">Tankard and Torch</td>
+<td class="tdrxx">$4.25</td>
+</tr>
+<tr>
+<td class="tdl">Tray</td>
+<td class="tdrxx">1.10</td>
+</tr>
+<tr>
+<td class="tdl">Extra Torch</td>
+<td class="tdrxx">1.60</td>
+</tr>
+</table>
+
+
+<figure class="figleft illowp25" id="i068-2" style="max-width: 38.6875em;">
+  <img class="w100" src="images/i068-2.jpg" alt="Mission Style Cape Cod Fire Lighter">
+</figure>
+
+<p class="center fs120 no-indent">MISSION STYLE</p>
+<p class="center no-indent">Complete<br>
+With Tray</p>
+
+
+<table class="autotable">
+<tr>
+<td class="tdl">Wrought Iron</td>
+<td class="tdrxx">$7.50</td>
+</tr>
+<tr>
+<td class="tdl">Hammered Brass</td>
+<td class="tdrxx">8.50</td>
+</tr>
+<tr>
+<td class="tdl">Hammered Copper</td>
+<td class="tdrxx">8.50</td>
+</tr>
+<tr>
+<td class="tdl">Extra Torch</td>
+<td class="tdrxx">2.00</td>
+</tr>
+</table>
+<br><br>
+
+<figure class="figleft illowp25" id="i068-3" style="max-width: 40.4375em;">
+  <img class="w100" src="images/i068-3.jpg" alt="Myles Standish Pot">
+</figure>
+
+<p class="center fs120 no-indent">MYLES STANDISH POT</p>
+
+<p>A new Cape Cod Fire Lighter
+made in the shape of the old
+black iron pot, now in Pilgrim
+Hall, once owned by Capt. Myles
+Standish of the Mayflower. A
+unique and useful article for the
+open fire place.</p>
+
+<p>Five inches in height and six
+across. Price $4.50, including
+torch, postage additional according
+to zone. Weight, packed for mailing, 10 lbs.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_69">[Pg 69]</span></p>
+
+<figure class="figleft illowp15" id="i069-1" style="max-width: 19.75em;">
+  <img class="w100" src="images/i069-1.jpg" alt="Banjo Clock">
+</figure>
+<br>
+
+<p class="center fs120 no-indent"><span class="smcap">Banjo Clocks</span></p>
+
+<p>A reproduction from a Colonial design,
+with glass panel painting of the
+ship Mayflower. The clock is 17 inches
+in height of solid mahogany beautifully
+finished with brass trimmings and
+eagle. An eight-day lever timepiece
+that will make a distinctive
+and useful gift. The price,
+$16.00 postpaid. The same
+design clock, 44 inch, $46.50</p>
+
+<figure class="figright illowp9" id="i069-2" style="max-width: 8.3125em;">
+  <img class="w100" src="images/i069-2.jpg" alt="Sword of Myles Standish">
+</figure>
+
+<p class="center fs120 no-indent lh"><span class="smcap">A Sterling Silver Paper Cutter</span></p>
+
+<p class="center fs120 no-indent lh"><span class="smcap">Ye Sword of Myles Standish</span></p>
+
+
+<div class="poetry-container fs80">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">“<i>Spake, in the pride of his heart, Myles Standish, </i></div>
+    <div class="verse indent4"><i>the Captain of Plymouth,</i></div>
+    <div class="verse indent0"><i>This is the sword of Damascus I fought with in </i></div>
+    <div class="verse indent4"><i>Flanders</i>”</div>
+     <div class="verse indent29">—<i>Longfellow.</i></div>
+  </div>
+</div>
+</div>
+
+
+<p>The famous Damascus blade of the redoubtable
+Pilgrim Captain is one of the
+most valuable relics to be seen in Pilgrim
+Hall. It was handed down to Myles Standish
+from the Crusaders, and possessed an interesting
+history even in his day. This miniature
+sword is perfectly copied from the original,
+even in the engraving of the curious
+Arabic inscription on the blade. Length, 6
+inches. The price, $3.25 postpaid.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_70">[Pg 70]</span></p>
+
+
+<p class="center fs120 no-indent"><span class="smcap">Plymouth Rock Paper Weights</span></p>
+
+<p>Made of glass, moulded into the shape of Plymouth
+Rock, with the date 1620. On the under side appears
+the inscription:</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">“A rock in the wilderness welcomed our sires</div>
+    <div class="verse indent2">From bondage far over the dark rolling sea.</div>
+    <div class="verse indent0">On that holy altar they kindled the fires,</div>
+    <div class="verse indent2">Jehovah! Which glow in our bosoms for thee.”</div>
+  </div>
+  </div>
+</div>
+
+<p>A useful memento of historic value. In two sizes.
+Price, by mail, 50c and 35c.</p>
+
+<figure class="figleft illowp15" id="i070" style="max-width: 21em;">
+  <img class="w100" src="images/i070.jpg" alt="Massasoit">
+</figure>
+
+<p class="center fs120 no-indent"><span class="smcap">Massasoit</span></p>
+
+<p>A bronze replica, 11 inches in
+height, of the statue designed
+by Cyrus E. Dallin and erected
+by Improved Order of Red Men
+on Cole’s Hill at Plymouth.</p>
+
+<p>Massasoit was Chief of the
+Wampanoag Indians, in whose
+country the Pilgrims settled, and
+through his kindness, for more
+than fifty years, they were able
+to survive and prosper.</p>
+
+<p>Price of replica $8.00 by insured
+mail.</p><br><br>
+
+
+<p class="center fs120 no-indent"><span class="smcap">Picture Map of Cape Cod</span></p>
+
+<p class="no-indent">picturing points of Pilgrim interest and showing the
+course of the exploring party in the Mayflower Shallop
+from Provincetown to Plymouth, December, 1620. Size
+25×36 printed in colors, $1.10 postpaid.</p>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_71">[Pg 71]</span></p>
+
+
+<p class="center fs120 no-indent"><span class="smcap">Old Blue Pilgrim Plates</span></p>
+
+<p class="center no-indent">—10-inch—</p>
+
+<figure class="figcenter illowp45" id="i071-1" style="max-width: 62.5em;">
+  <img class="w100" src="images/i071-1.jpg" alt="">
+  <figcaption class="caption"><p class="center fs80 no-indent">Landing of the Pilgrims</p></figcaption>
+</figure>
+
+<p>The old fashioned border which sets off the Pilgrim
+pictures is an exact copy of the Staffordshire ware of
+a century ago. Eight subjects—the price $1.00 each or
+$1.15 postpaid.</p>
+
+<figure class="figleft illowp25" id="i071-2" style="max-width: 62.5em;">
+  <img class="w100" src="images/i071-2.jpg" alt="Plymouth Rock Chickens">
+</figure>
+
+<p class="center fs120 no-indent"><span class="smcap">Plymouth Rock Chickens</span></p>
+
+<p>A novelty in glass for individual
+salts—white, black, blue, green
+or crystal.</p>
+
+<p class="center no-indent">
+35c each.<br>
+4 for $1.15 postpaid.<br><br>
+</p>
+
+
+<p class="center fs120 no-indent"><span class="smcap">Colonial Iron Kettles</span></p>
+
+<p>Miniature size Kettles, Sauce Pans and Frying Pans.
+A novelty for use as ash receivers. Postpaid 30c.</p>
+
+
+<p class="center fs120 no-indent"><span class="smcap">Lantern Slides</span></p>
+
+<div class="blockquot fs80">
+
+<p>We furnish lantern slides from any subjects on our list of
+photographs. They are made by an expert from the original
+negatives. Price 50c each; $6.00 per dozen.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_72">[Pg 72]</span></p>
+
+<figure class="figleft illowp15" id="i072-1" style="max-width: 23.0625em;">
+  <img class="w100" src="images/i072-1.jpg" alt="Priscilla Alden Candle">
+</figure>
+
+<figure class="figright illowp15" id="i072-2" style="max-width: 23.5625em;">
+  <img class="w100" src="images/i072-2.jpg" alt="John Alden Candle">
+</figure>
+
+<p class="center fs120 no-indent"><span class="smcap">Priscilla and<br>
+John Alden<br>
+Candles</span></p>
+
+
+<p>Hand dipped and painted
+candles, made on Cape Cod,
+representing two Mayflower
+passengers famous in
+Pilgrim story. The pair in
+a gift box, $1.25 postpaid.
+With low glass Candle
+Holders, decorated in colors
+to match costumes, $2.00
+the pair postpaid.</p>
+<br><br>
+
+<p class="center fs120 no-indent"><span class="smcap">Plymouth Oilette Calendars</span></p>
+
+<figure class="figright illowp15" id="i072-3" style="max-width: 23.3125em;">
+  <img class="w100" src="images/i072-3.jpg" alt="Plymouth Oilette Calendars">
+</figure>
+
+<p>Plymouth pictures in colors—size 3½ by 5½ closely
+resembling oil paintings—with ribbon
+attached Calendar for this year and next.
+Ten subjects for selection:</p>
+
+<p>Landing of the Pilgrims—Brewster
+Gardens—North Street—“Why Don’t
+You Speak for Yourself, John?”—Ship
+Mayflower at Sea—Plymouth Rock—The
+Old Fort, 1621—Pilgrim Monument—Interior
+John Alden House—Myles
+Standish Monument.</p>
+
+<p class="center no-indent">
+25c each postpaid.<br><br>
+</p>
+
+<p class="center fs120 no-indent"><span class="smcap">Plymouth Folders</span></p>
+
+<p>48 pictures in colors, 15c postpaid.</p>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<p><span class="pagenum" id="Page_73">[Pg 73]</span></p>
+
+
+<p class="center fs120 no-indent"><span class="smcap">Priscilla and John Alden</span></p>
+
+<figure class="figleft illowp15" id="i073-1" style="max-width: 32.9375em;">
+  <img class="w100" src="images/i073-1.jpg" alt="John Alden doll">
+</figure>
+
+<p class="center no-indent">
+Send Cheerful Greetings<br>
+From Pilgrim Plymouth<br>
+and ask you to look over this<br>
+list of<br>
+Gifts With a Pilgrim Flavor<br>
+</p>
+
+<p class="no-indent">A selection from the list will
+make a Present of real Artistic
+Worth, Combining Sentiment
+and Historic Value.</p><br>
+
+
+<figure class="figright illowp15" id="i073-2" style="max-width: 30.75em;">
+  <img class="w100" src="images/i073-2.jpg" alt="Priscilla Alden doll">
+</figure>
+
+<p class="center fs120 no-indent"><span class="smcap">The Pilgrim Dolls</span></p>
+
+<p class="no-indent">are a happy reminder of “the good
+old days of John Alden and the
+days of Priscilla the spinner.”
+Dressed in ye costumes of 1620
+they make delightful souvenirs for
+the little folks. Four inches in
+height, in a gift box, cloth costumes,
+$1.10 the pair; crepe costumes,
+60c the pair, postpaid.</p><br>
+
+<figure class="figcenter illowp65" id="i073-3" style="max-width: 62.5em;">
+  <img class="w100" src="images/i073-3.jpg" alt="village">
+</figure>
+
+<hr class="chap x-ebookmaker-drop">
+
+<p class="center fs120 no-indent">ORDER BLANK</p>
+
+<p class="fs80 lh"><span class="smcap">&emsp;A. S. Burbank</span></p>
+<p class="no-indent lh">PILGRIM BOOKSTORE</p>
+<p class="fs80 lh">&emsp;Plymouth, Mass.</p><br>
+<p class="no-indent">
+Please send to___________________________________<br><br>
+<span style="margin-left: 2.5em;">Address___________________________________</span></p>
+<p class="no-indent">the following articles, remittance for which is sent herewith</p>
+
+<table class="widetable fs80">
+<tr>
+<td class="tdc btd br bb" style="width:20%; height:35px">Quantity</td>
+<td class="tdc btd bb brd" style="width:40%">Article</td>
+<td class="tdc btd bb brd" style="width:20%" colspan="2">Price</td>
+<td class="tdc btd bb" style="width:20%" colspan="2">Total</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+<tr>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc brd">&nbsp;</td>
+<td class="tdc br">&nbsp;</td>
+<td class="tdc">&nbsp;</td>
+</tr>
+</table>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+
+<div class="transnote">
+<h2>Transcriber’s Notes</h2>
+
+<ul>
+<li>pg 17 Changed cholars translated “In Jehovah’s name to: scholars</li>
+<li>pg 18 Added missing period after: six British sovereigns and the Com’th</li>
+<li>pg 51 Added missing period after: By mail, 85c</li>
+<li>pg 55 Changed comma to period after: A Nameless Nobleman. By Jane G. Austin</li>
+<li>pg 55 Added period after: The Pilgrims and Their History</li>
+<li>pg 65 Added missing period after: Elder William Brewster’s Residence</li>
+<li>pg 74 Added missing period after: delightful souvenirs for the little folks</li>
+</ul>
+</div>
+
+<div style='display:block; margin-top:4em'>*** END OF THE PROJECT GUTENBERG EBOOK HANDBOOK OF OLD BURIAL HILL PLYMOUTH, MASSACHUSETTS ***</div>
+<div style='text-align:left'>
+
+<div style='display:block; margin:1em 0'>
+Updated editions will replace the previous one&#8212;the old editions will
+be renamed.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg&#8482; electronic works to protect the PROJECT GUTENBERG&#8482;
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away&#8212;you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+</div>
+
+<div style='margin-top:1em; font-size:1.1em; text-align:center'>START: FULL LICENSE</div>
+<div style='text-align:center;font-size:0.9em'>THE FULL PROJECT GUTENBERG LICENSE</div>
+<div style='text-align:center;font-size:0.9em'>PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK</div>
+
+<div style='display:block; margin:1em 0'>
+To protect the Project Gutenberg&#8482; mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase &#8220;Project
+Gutenberg&#8221;), you agree to comply with all the terms of the Full
+Project Gutenberg&#8482; License available with this file or online at
+www.gutenberg.org/license.
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 1. General Terms of Use and Redistributing Project Gutenberg&#8482; electronic works
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.A. By reading or using any part of this Project Gutenberg&#8482;
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg&#8482; electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg&#8482; electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.B. &#8220;Project Gutenberg&#8221; is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg&#8482; electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg&#8482; electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg&#8482;
+electronic works. See paragraph 1.E below.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.C. The Project Gutenberg Literary Archive Foundation (&#8220;the
+Foundation&#8221; or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg&#8482; electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg&#8482; mission of promoting
+free access to electronic works by freely sharing Project Gutenberg&#8482;
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg&#8482; name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg&#8482; License when
+you share it without charge with others.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg&#8482; work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E. Unless you have removed all references to Project Gutenberg:
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg&#8482; License must appear
+prominently whenever any copy of a Project Gutenberg&#8482; work (any work
+on which the phrase &#8220;Project Gutenberg&#8221; appears, or with which the
+phrase &#8220;Project Gutenberg&#8221; is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+</div>
+
+<blockquote>
+  <div style='display:block; margin:1em 0'>
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  </div>
+</blockquote>
+
+<div style='display:block; margin:1em 0'>
+1.E.2. If an individual Project Gutenberg&#8482; electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase &#8220;Project
+Gutenberg&#8221; associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg&#8482;
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.3. If an individual Project Gutenberg&#8482; electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg&#8482; License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg&#8482;
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg&#8482;.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg&#8482; License.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg&#8482; work in a format
+other than &#8220;Plain Vanilla ASCII&#8221; or other format used in the official
+version posted on the official Project Gutenberg&#8482; website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original &#8220;Plain
+Vanilla ASCII&#8221; or other form. Any alternate format must include the
+full Project Gutenberg&#8482; License as specified in paragraph 1.E.1.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg&#8482; works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg&#8482; electronic works
+provided that:
+</div>
+
+<div style='margin-left:0.7em;'>
+    <div style='text-indent:-0.7em'>
+        &#8226; You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg&#8482; works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg&#8482; trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, &#8220;Information about donations to the Project Gutenberg
+        Literary Archive Foundation.&#8221;
+    </div>
+
+    <div style='text-indent:-0.7em'>
+        &#8226; You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg&#8482;
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg&#8482;
+        works.
+    </div>
+
+    <div style='text-indent:-0.7em'>
+        &#8226; You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    </div>
+
+    <div style='text-indent:-0.7em'>
+        &#8226; You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg&#8482; works.
+    </div>
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg&#8482; electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg&#8482; trademark. Contact the Foundation as set
+forth in Section 3 below.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg&#8482; collection. Despite these efforts, Project Gutenberg&#8482;
+electronic works, and the medium on which they may be stored, may
+contain &#8220;Defects,&#8221; such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the &#8220;Right
+of Replacement or Refund&#8221; described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg&#8482; trademark, and any other party distributing a Project
+Gutenberg&#8482; electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you &#8216;AS-IS&#8217;, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg&#8482; electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg&#8482;
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg&#8482; work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg&#8482; work, and (c) any
+Defect you cause.
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 2. Information about the Mission of Project Gutenberg&#8482;
+</div>
+
+<div style='display:block; margin:1em 0'>
+Project Gutenberg&#8482; is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg&#8482;&#8217;s
+goals and ensuring that the Project Gutenberg&#8482; collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg&#8482; and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+</div>
+
+<div style='display:block; margin:1em 0'>
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation&#8217;s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state&#8217;s laws.
+</div>
+
+<div style='display:block; margin:1em 0'>
+The Foundation&#8217;s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation&#8217;s website
+and official page at www.gutenberg.org/contact
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 4. Information about Donations to the Project Gutenberg Literary Archive Foundation
+</div>
+
+<div style='display:block; margin:1em 0'>
+Project Gutenberg&#8482; depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+</div>
+
+<div style='display:block; margin:1em 0'>
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit <a href="https://www.gutenberg.org/donate/">www.gutenberg.org/donate</a>.
+</div>
+
+<div style='display:block; margin:1em 0'>
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+</div>
+
+<div style='display:block; margin:1em 0'>
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 5. General Information About Project Gutenberg&#8482; electronic works
+</div>
+
+<div style='display:block; margin:1em 0'>
+Professor Michael S. Hart was the originator of the Project
+Gutenberg&#8482; concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg&#8482; eBooks with only a loose network of
+volunteer support.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Project Gutenberg&#8482; eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Most people start at our website which has the main PG search
+facility: <a href="https://www.gutenberg.org">www.gutenberg.org</a>.
+</div>
+
+<div style='display:block; margin:1em 0'>
+This website includes information about Project Gutenberg&#8482;,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+</div>
+
+</div>
+</body>
+</html>
